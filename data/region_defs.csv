@@ -1,0 +1,24 @@
+"These data were modified from ""https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.302.1 and https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.303.1",,,,,
+Modifications were done to show data entry errors to be used as example of a data cleaning workshop,,,,,
+mgmtArea,code,areaClass,regionCode,NOTES,Coordinates
+Alaska Peninsula - Aleutian Islands Management Area,ALUmgmt,mgmtArea,4,The Alaska Peninsula Management Area includes the North Peninsula and SouthPeninsula and the Aleutian Islands Subareas. Chignik Area catches are not included in these figures.,"Lon-166.0, Lat55.0"
+Aleutian Islands Subarea,ALU,subarea,4,,"Lon-170.0, Lat53.0"
+Bering River Subarea Copper River Subarea,BER,subarea,2,,"Lon-144.5, Lat60.5"
+Bristol Bay Management Area,BRB,mgmtArea,2,,"Lon-158.0, Lat58.5"
+Chignik Management Area,CHG,mgmtArea,4,,"Lon-158.5, Lat56.3"
+Cook Inlet Management Area,CKI,mgmtArea,2,Cook Inlet includes Resurrection Bay unless otherwise noted,"Lon-151.0, Lat60.0"
+Copper River Subarea,COP,subarea,2,,"Lon-145.0, Lat60.5"
+Kodiak Management Area,KOD,mgmtArea,4,,"Lon-152.5, Lat57.5"
+Kotzebue Management Area,KTZ,mgmtArea,3,,"Lon-163.5, Lat66.0"
+Kuskokwim Management Area,KSK,mgmtArea,3,,"Lon-161.5, Lat60.0"
+Northern Southeast Alaska,NSE,mgmtArea,1,Northern Southern Alaska includes Districts 9 through 16 from summer straight northwest to and including the fairweather Grounds but excludes Yakutat fisheries unless otherwise noted.,"Lon-134.5, Lat58.5"
+NorthPeninsual Subarea,NOP,subarea,4,,"Lon-159.0, Lat56.5"
+Norton Sound Management Area,NRS,mgmtArea,3,,"Lon-162.0, Lat64.5"
+Prince William Sound Management Area,PWSmgmt,mgmtArea,2,Includes the Bering River and Copper River and Prince William Sound Subareas,"Lon-147.5, Lat60.5"
+Prince William Sound Subarea,PWS,subarea,2,,"Lon-148.0, Lat60.8"
+South Peninsula Subarea,SOP,subarea,4,,"Lon-162.0, Lat54.5"
+Southern Southeast Alaska,SSE,mgmtArea,1,,"Lon-132.5, Lat55.5"
+Unallocated Southeast Alaska,GSE,mgmtArea,1,"Included are Southeastern Alaska catches which could not be assigned
+to Northern or Southern Southeastern Alaska or Yakutat","Lon-133.5, Lat56.5"
+Yakutat,YAK,mgmtArea,1,,"Lon-140.0, Lat59.5"
+Yukon Management Area,YUK,mgmtArea,3,,"Lon-164.0, Lat62.0"

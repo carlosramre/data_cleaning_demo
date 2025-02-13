@@ -1,0 +1,22 @@
+code,mgmtArea,areaClass,regionCode,notes
+GSE,Unallocated Southeast Alaska,mgmtArea,1,"Included are Southeastern Alaska catches which could not be assigned
+to Northern or Southern Southeastern Alaska or Yakutat"
+NSE,Northern Southeast Alaska,mgmtArea,1,Northern Southern Alaska includes Districts 9 through 16 from summer straight northwest to and including the fairweather Grounds but excludes Yakutat fisheries unless otherwise noted.
+SSE,Southern Southeast Alaska,mgmtArea,1,
+YAK,Yakutat,mgmtArea,1,
+PWSmgmt,Prince William Sound Management Area,mgmtArea,2,Includes the Bering River and Copper River and Prince William Sound Subareas
+BER,Bering River Subarea Copper River Subarea,subarea,2,
+COP,Copper River Subarea,subarea,2,
+PWS,Prince William Sound Subarea,subarea,2,
+CKI,Cook Inlet Management Area,mgmtArea,2,Cook Inlet includes Resurrection Bay unless otherwise noted
+BRB,Bristol Bay Management Area,mgmtArea,2,
+KSK,Kuskokwim Management Area,mgmtArea,3,
+YUK,Yukon Management Area,mgmtArea,3,
+NRS,Norton Sound Management Area,mgmtArea,3,
+KTZ,Kotzebue Management Area,mgmtArea,3,
+KOD,Kodiak Management Area,mgmtArea,4,
+CHG,Chignik Management Area,mgmtArea,4,
+ALUmgmt,Alaska Peninsula - Aleutian Islands Management Area,mgmtArea,4,The Alaska Peninsula Management Area includes the North Peninsula and SouthPeninsula and the Aleutian Islands Subareas. Chignik Area catches are not included in these figures.
+SOP,South Peninsula Subarea,subarea,4,
+ALU,Aleutian Islands Subarea,subarea,4,
+NOP,NorthPeninsual Subarea,subarea,4,

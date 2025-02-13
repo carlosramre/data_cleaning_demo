@@ -1,0 +1,1705 @@
+"These data were modified from ""https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.302.1 and https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.303.1",,,,,,,,
+Modifications were done to show data entry errors to be used as example of a data cleaning workshop,,,,,,,,
+region,Year,Chinook salmon,Sockeye salmon,Coho salmon,Pink salmon,Chum salmon,NOTES,source
+BRB,1996,87,29592,125,38,827,,individual;regional
+KOD,1996,13,4970,202,3487,544,,individual
+CKI,1996,15,4376,336,696,167,,regional;individual;local
+COP,1996,58,2357,193,6,26,,regional;local;individual
+SSE,1996,24,2110,1173,53676,5605,,regional;individual
+CHG,1996,3,1958,193,189,121,,local;regional
+NOP,1996,5,1911,157,54,68,,individual;regional
+SOP,1996,6,1543,293,2208,795,,local;individual
+PWS,1996,1,606,172,26042,2078,,regional;individual
+NSE,1996,187,478,1492,10921,10459,,individual;regional
+YAK,1996,10,209,492,32,3,,regional
+KSK,1996,23,123,1102,2,296,,individual;local
+BER,1996,0,38,94,0,0,,regional
+YUK,1996,112,0,35,0,153,,individual;regional
+NRS,1996,0,0,70,487,5,,regional;local
+KTZ,1996,0,0,0,0,143,,regional
+ALU,1996,0,,NA,0,0,,individual;regional;local
+BRB,1995,99,44269,49,0,980,,regional
+KOD,1995,19,4489,308,42849,1523,,local
+NOP,1995,8,3273,136,12,99,,local;individual
+CKI,1995,22,3243,466,2982,577,,regional;local;individual
+SOP,1995,17,3016,264,16312,1728,,regional
+CHG,1995,5,1724,282,2058,381,,regional;individual;local
+SSE,1995,32,1353,1093,41315,4582,,local;regional
+COP,1995,67,1272,543,20,56,,individual
+NSE,1995,170,288,1716,6594,6572,,individual;local;regional
+PWS,1995,1,230,140,16045,702,,individual;regional;local
+KSK,1995,73,200,562,0,723,,local;regional
+YAK,1995,12,154,536,55,3,,local;individual;regional
+BER,1995,0,22,282,0,0,,local;individual
+YUK,1995,92,0,54,NA,249,,local;regional;individual
+NRS,1995,9,0,48,82,43,,local;individual
+KTZ,1995,0,0,0,0,80,,regional;individual;local
+ALU,1995,0,0,0,0,0,,local
+SSE,1994,56,17041704,1735,21059,3441,,local
+BRB,1994,141,35224,175,90,895,,individual
+CKI,1994,21,3706,600,2172,334,,individual;regional;local
+KOD,1994,23,2878,296,8163,739,,regional
+NOP,1994,19,2783,242,226,84,,regional;local;individual
+SOP,1994,10,2107,256,9180,2192,,individual;regional
+CHG,1994,4,1618,231,431,227,,individual
+COP,1994,48,1153,678,12,19,,individual;local
+NSE,1994,152,480,3220,36573,6951,,individual
+PWS,1994,1,334,122,36874,1039,,regional;individual
+YAK,1994,9,208,761,14,5,,local
+KSK,1994,29,194,864,85,373,,local;regional
+BER,1994,0,28,259,0,0,,local
+YUK,1994,115,0,6,0,97,,individual;regional
+NRS,1994,5,0,102,982,18,,individual
+KTZ,1994,0,0,0,0,149,,regional;individual
+ALU,1994,0,0,0,860,1,,local
+BRB,1993,86,40463,73,0,838,,local;regional;individual
+CKI,1993,23,5004,321,968,139,,regional;local
+KOD,1993,42,4378,313,34019,588,,regional;individual;local
+NOP,1993,24,3867,64,5,135,,regional
+SOP,1993,14,3689,220,9928,1048,,local;regional;individual
+SSE,1993,98,2313,1331,39219,2938,,individual
+CHG,1993,20,1697,229,1648,122,,individual;local
+COP,1993,30,1398,281,10,13,,individual
+NSE,1993,182,532,1825,18067,4936,,local;individual;regional
+PWS,1993,2,419,48,5751,1173,,regional
+YAK,1993,17,347,509,13,6,,regional;individual
+KSK,1993,29,172,695,0,103,,individual;local;regional
+BER,1993,0,34,116,0,0,,local;individual;regional
+YUK,1993,96,0,0,0,98,,individual;regional;local
+NRS,1993,9,0,43,163,54,,regional;individual;local
+KTZ,1993,0,0,0,0,71,,local;individual;regional
+ALU,1993,0,0,0,0,1,,individual;regional
+BRB,1992,69,31880,192,500,921,,individual;regional
+CKI,1992,20,9301,475,1176,298,,regional;individual;local
+KOD,1992,24,4168,280,3311,680,,regional;local;individual
+NOP,1992,13,3576,207,194,342,,local
+SOP,1992,8,3446,418,9770,1317,,regional;local;individual
+SSE,1992,88,1797,1302,19010,2176,,individual;regional;local
+CHG,1992,11,1277,311,1554,222,,individual
+COP,1992,40,971,292,2,6,,regional;individual;local
+PWS,1992,1,781,202,8635,329,,regional
+NSE,1992,134,555,1914,15933,2752,,individual;local
+YAK,1992,4,315,479,21,8,,regional;individual
+KSK,1992,68,194,783,86,449,,regional;individual
+BER,1992,0,20,126,0,0,,local;individual;regional
+ALU,1992,0,3,0,320,2,,regional;individual
+YUK,1992,120,0,8,0,351,,individual
+NRS,1992,5,0,105,6,83,,individual;regional
+KTZ,1992,0,0,0,0,289,,local;regional
+KOD,1991,22,5704,325,16643,1029,,individual;regional;local
+BRB,1991,30,25821,118,0,1290,,individual;regional;local
+KOD,1991,22,5704,325,16643,1029,,individual;regional;local
+CKI,1991,15,2508,447,843,305,,local
+NOP,1991,9,2392,217,4,191,,regional;local
+SOP,1991,8,2320,317,10617,1589,,local;regional;individual
+CHG,1991,3,1899,166,1169,261,,regional
+SSE,1991,120,1328,1307,43497,1549,,local
+COP,1991,35,1208,386,1,20,,individual;regional
+PWS,1991,0,508,145,37134,332,,regional
+NSE,1991,204,505,1668,18424,1784,,local;regional;individual
+YAK,1991,9,230,221,5,3,,regional;local;individual
+KSK,1991,48,203,558,1,503,,local;individual;regional
+BER,1991,0,19,111,0,0,,individual;local
+ALU,1991,0,1,0,0,0,,regional;local;individual
+YUK,1991,102,0,106,0,586,,local;individual;regional
+NRS,1991,6,0,64,0,87,,individual;local
+KTZ,1991,0,0,0,0,240,,individual
+BRB,1990,34,33444,103,497,1055,,local;regional
+KOD,1990,19,5248,294,5984,578,,individual;regional
+CKI,1990,18,3820,512,988,362,,local;individual
+NOP,1990,12,2415,193,518,126,,regional;individual
+SOP,1990,17,2387,307,2866,1238,,individual;regional
+CHG,1990,10,2094,130,550,270,,local;individual
+SSE,1990,125,1276,1259,26683,899,,regional
+COP,1990,22,846,247,2,8,,local;regional
+NSE,1990,209,535,1325,5627,1313,,local
+YAK,1990,11,345,284,32,6,,regional;local;individual
+KSK,1990,85,204,445,16,523,,individual;regional;local
+PWS,1990,0,58,234,44163,960,,individual
+ALU,1990,0,12,0,283,1,,local;regional
+BER,1990,0,8,43,0,0,,individual
+YUK,1990,96,0,44,1,444,,local;regional;individual
+NRS,1990,9,0,57,0,65,,individual
+KTZ,1990,0,0,0,0,164,,regional
+BRB,1989,40,28735,240,0,1259,,individual
+CKI,1989,29,5185,353,1365,139,,local
+SOP,1989,7,2661,444,7293,994,,regional;local
+NOP,1989,11,1719,228,4,157,,individual
+KOD,1989,0,1290,3,6825,20,,regional;local;individual
+CHG,1989,4,1159,68,28,2,,individual;local
+SSE,1989,84,1131,815,45763,1256,,regional
+COP,1989,31,1028,195,26,6,,individual
+NSE,1989,184,664,1078,13636,696,,individual;regional
+YAK,1989,6,330,311,61,17,,individual
+PWS,1989,1,138,203,21860,996,,local
+KSK,1989,67,83,556,1,802,,individual;regional
+BER,1989,0,9,27,0,0,,individual;regional
+ALU,1989,0,8,0,7,0,,individual;local
+YUK,1989,102,0,85,0,1253,,local;regional
+NRS,1989,6,0,44,0,43,,regional;individual
+KTZ,1989,0,0,0,0,256,,regional;local
+BRB,1988,45,13990,203,956,1470,,local;individual;regional
+YAK,1988,7,162,260,122,30,,local;regional;individual
+CKI,1988,31,7165,571,1396,1037,,local;regional
+KOD,1988,22,2701,303,14564,1427,,regional;local
+NOP,1988,17,1528,234,65,393,,individual;local
+SOP,1988,11,1474,506,7045,1909,,regional;individual
+SSE,1988,78,888,349,9055,2078,,local
+CHG,1988,7,796,370,2997,267,,regional;individual
+COP,1988,31,577,316,3,11,,local;individual
+NSE,1988,159,410,437,2031,1428,,individual;local;regional
+PWS,1988,1,184,76,11829,1840,,regional;local;individual
+YAK,1988,7,162,260,122,30,,local;regional;individual
+KSK,1988,75,150,626,38,1447,,regional
+BER,1988,0,7,87,0,0,,local;regional;individual
+ALU,1988,0,4,0,183,0,,individual
+NRS,1988,4,1,37,75,107,,individual;local;regional
+YUK,1988,101,0,98,1,1310,,regional;local;individual
+KTZ,1988,0,0,0,0,353,,individual;regional
+BRB,1987,75,16069,65,0,1529,,regional;local
+CKI,1987,41,9718,466,311,511,,individual;local;regional
+CHG,1987,3,1899,150,247,127,,regional
+KOD,1987,5,1794,193,5076,682,,regional;individual
+SOP,1987,9,1450,225,1209,1376,,regional;individual
+NOP,1987,14,1209,172,3,369,,local;regional
+COP,1987,41,1181,112,27,14,,individual
+NSE,1987,212,577,672,5635,1523,,regional;local;individual
+PWS,1987,1,545,48,29337,1940,,individual
+SSE,1987,66,540,663,4631,1184,,individual;regional;local
+YAK,1987,10,260,208,14,15,,individual;regional
+KSK,1987,65,171,479,0,602,,local;regional;individual
+BER,1987,0,17,16,0,0,,individual
+YUK,1987,132,0,0,0,442,,local;regional
+NRS,1987,7,0,24,2,103,,regional
+KTZ,1987,0,0,0,0,109,,local;individual;regional
+ALU,1987,0,0,0,0,0,,local;regional;individual
+BRB,1986,94,15776,182,401,1227,,regional
+CKI,1986,40,5030,777,2710,1229,,individual;regional
+KOD,1986,4,3188,169,11809,1134,,regional;local
+NOP,1986,12,2464,164,23,271,,local;individual;regional
+CHG,1986,3,1646,117,647,177,,regional;local
+SOP,1986,6,1225,236,4033,1787,,regional;individual;local
+SSE,1986,70,904,1568,45019,1845,,local
+COP,1986,41,780,296,3,18,,individual;regional;local
+PWS,1986,1,489,14,11408,1687,,individual
+NSE,1986,183,388,1588,1144,1496,,local
+YAK,1986,12,151,248,9,18,,regional
+KSK,1986,45,142,736,31,349,,regional;individual
+BER,1986,0,19,115,0,0,,regional
+ALU,1986,0,6,0,41,2,,individual;local
+YUK,1986,100,0,47,0,861,,local;regional;individual
+NRS,1986,6,0,36,41,147,,individual
+KTZ,1986,0,0,0,0,261,,individual;local;regional
+BRB,1985,120,23703,163,0,1068,,regional;individual;local
+CKI,1985,25,4339,678,1318,803,,regional
+NOP,1985,24,2596,176,3,667,,individual;local;regional
+SOP,1985,7,2145,173,4431,1363,,local;individual
+KOD,1985,5,1843,284,7335,431,,regional;local;individual
+SSE,1985,74,1129,984,30708,1394,,individual
+COP,1985,42,928,588,19,6,,local;individual;regional
+CHG,1985,2,922,191,160,23,,regional
+NSE,1985,174,497,1213,21221,1868,,local;regional;individual
+PWS,1985,1,496,18,25110,1282,,regional;individual;local
+YAK,1985,10,235,402,26,13,,regional
+KSK,1985,74,121,382,0,225,,local;individual;regional
+BER,1985,0,27,419,0,10,,regional;individual
+ALU,1985,0,2,0,0,0,,local;regional;individual
+YUK,1985,144,0,57,0,761,,individual;local;regional
+NRS,1985,19,0,22,4,135,,regional;local
+KTZ,1985,0,0,0,0,521,,local;regional
+BRB,1984,102,24710,575,3366,2023,,individual;regional;local
+CHG,1984,4,2661,110,445,63,,regional;local
+CKI,1984,11,2376,467,1318,773,,local
+SOP,1984,9,2318,311,11628,1655,,individual;local;regional
+KOD,1984,5,1951,230,10847,649,,local;regional
+NOP,1984,23,1735,199,27,797,,local
+COP,1984,39,900,382,32,7,,individual;local
+SSE,1984,68,638,687,19677,1823,,local
+NSE,1984,193,475,962,5008,2229,,regional;individual
+PWS,1984,1,336,29,21561,1238,,regional;local;individual
+YAK,1984,10,103,261,21,32,,local
+BER,1984,0,99,212,1,23,,regional;individual;local
+KSK,1984,74,81,830,24,489,,regional
+ALU,1984,0,67,2,2271,32,,individual;local
+YUK,1984,120,0,82,0,797,,individual
+NRS,1984,8,0,68,118,146,,local;regional;individual
+KTZ,1984,0,0,0,0,320,,local
+BRB,1983,199,37372,128,0,1632,,individual
+CKI,1983,22,5237,528,998,1307,,local;regional
+SOP,1983,27,2557,128,2828,1706,,individual
+NOP,1983,29,2092,75,3,348,,regional;individual
+CHG,1983,5,1824,62,321,159,,local
+KOD,1983,4,1232,158,4603,1085,,local;individual
+SSE,1983,93,935,811,31462,512,,local;individual;regional
+COP,1983,53,627,237,8,2,,regional;local
+NSE,1983,194,469,1018,6058,645,,regional;individual
+BER,1983,1,180,118,1,5,,local;individual
+YAK,1983,5,153,101,26,11,,local;individual;regional
+PWS,1983,1,102,10,13972,1042,,individual
+KSK,1983,81,89,199,0,295,,regional
+ALU,1983,0,6,0,3,10,,regional;local
+YUK,1983,106,0,13,0,966,,local;individual;regional
+NRS,1983,10,0,50,76,319,,individual
+KTZ,1983,0,0,0,0,176,,regional;individual;local
+BRB,1982,253,15103,620,1492,1239,,regional;individual
+CKI,1982,22,3391,841,1342,1632,,local
+SOP,1982,10,2346,256,6778,2272,,individual;regional;local
+CHG,1982,5,1522,303,873,390,,local
+NOP,1982,30,1435,238,12,331,,regional;individual
+KOD,1982,1,1204,345,8090,1263,,regional;local
+COP,1982,47,1178,455,34,3,,regional;local
+PWS,1982,0,1055,30,20368,1334,,local;regional;individual
+SSE,1982,106,839,800,12956,814,,individual;regional
+NSE,1982,174,440,1071,11254,511,,local
+YAK,1982,20,213,237,12,6,,individual;local;regional
+BER,1982,0,130,145,0,0,,local
+KSK,1982,78,96,570,18,323,,regional;local
+ALU,1982,0,3,0,1405,6,,local
+YUK,1982,124,0,37,0,686,,regional;local
+NRS,1982,6,0,92,225,183,,local;regional
+KTZ,1982,0,0,0,0,416,,individual
+BRB,1981,237,25603,314,7,2182,,regional
+SOP,1981,11,2242,162,5033,1768,,local
+NOP,1981,19,1857,155,14,709,,regional;individual
+CHG,1981,3,1839,79,1163,580,,regional;individual
+CKI,1981,13,1550,495,3406,1170,,individual;local;regional
+KOD,1981,1,1289,122,10337,1345,,regional;local;individual
+SSE,1981,88,713,607,13525,343,,regional
+COP,1981,20,478,310,24,2,,individual;regional
+PWS,1981,0,251,4,20524,1879,,regional;individual;local
+NSE,1981,167,210,586,5376,483,,regional
+YAK,1981,17,149,166,138,11,,individual
+KSK,1981,79,106,278,0,483,,regional;local;individual
+BER,1981,0,56,83,10,8,,regional;local;individual
+ALU,1981,0,5,0,303,7,,individual;regional
+YUK,1981,158,0,24,0,1473,,individual;local;regional
+NRS,1981,8,0,31,230,170,,individual;regional;local
+KTZ,1981,0,0,0,0,677,,local
+BRB,1980,95,22373,348,2565,1650,,local
+SOP,1980,5,3613,274,7861,1353,,local;individual
+NOP,1980,18,2786,128,302,717,,regional
+CKI,1980,14,1643,286,2676,463,,regional
+CHG,1980,2,860,120,1093,253,,regional;individual
+SSE,1980,84,739,529,12924,833,,local
+KOD,1980,1,651,139,17291,1076,,regional;local
+NSE,1980,207,210,450,1432,789,,local;regional;individual
+PWS,1980,0,190,3,14157,482,,local;individual
+YAK,1980,31,160,137,144,20,,individual;local;regional
+KSK,1980,49,43,328,30,559,,regional;individual;local
+COP,1980,8,19,225,4,0,,regional;local;individual
+ALU,1980,0,9,0,2597,5,,individual;regional
+BER,1980,0,0,109,0,0,,local
+YUK,1980,154,0,9,0,1222,,regional;local;individual
+NRS,1980,6,0,30,227,181,,individual
+KTZ,1980,0,0,0,2,366,,individual
+BRB,1979,208,20737,74,4,941,,local;individual;regional
+NOP,1979,17,1979,113,5,66,,regional
+SOP,1979,2,1150,357,6565,483,,regional;local
+CHG,1979,1,1049,99,1905,189,,regional;individual;local
+CKI,1979,15,989,285,3052,873,,local;regional
+KSK,1979,8,705,406,1,182,,local;individual
+KOD,1979,2,631,141,11286,358,,local;individual;regional
+SSE,1979,127,552,547,6990,330,,individual
+NSE,1979,217,356,615,3832,550,,regional;local
+YAK,1979,24,165,123,154,8,,regional;individual;local
+PWS,1979,2,150,7,15630,326,,local;regional;individual
+BER,1979,0,139,114,7,23,,local
+COP,1979,18,81,195,1,0,,local;individual
+ALU,1979,0,12,0,539,0,,individual;regional
+YUK,1979,128,0,17,0,1139,,individual
+NRS,1979,11,0,31,165,138,,individual
+KTZ,1979,0,0,0,1,142,,local;regional;individual
+BRB,1978,192,9928,94,5160,1270,,local
+CKI,1978,19,2778,226,2041,645,,local
+CHG,1978,2,1576,20,985,121,,regional;local
+KOD,1978,3,1072,49,15004,814,,local;regional
+NOP,1978,14,897,62,485,164,,regional;individual
+SOP,1978,1,577,56,5344,515,,regional;individual;local
+SSE,1978,96,455,697,18425,649,,local
+COP,1978,29,250,220,4,2,,individual;local
+PWS,1978,1,222,1,2914,485,,regional;local;individual
+NSE,1978,264,202,810,2782,213,,local;regional;individual
+YAK,1978,41,131,209,36,7,,local;regional;individual
+BER,1978,0,34,91,0,2,,individual;local
+KSK,1978,64,16,252,309,313,,regional;individual;local
+ALU,1978,0,2,0,38,0,,local
+YUK,1978,99,0,26,0,1286,,local;regional;individual
+NRS,1978,10,0,7,326,189,,regional;individual
+KTZ,1978,0,0,0,7,112,,regional;individual;local
+BRB,1977,131,4878,107,5,1791,,individual;local;regional
+CKI,1977,15,2154,196,1846,1380,,local;regional
+CHG,1977,1,1972,17,618,113,,individual
+SSE,1977,61,650,299,11298,425,,regional;local
+KOD,1977,1,623,28,6252,1072,,regional;local
+COP,1977,22,619,131,23,0,,local
+NOP,1977,5,472,34,1,129,,regional
+SOP,1977,1,312,2,1436,241,,regional;local
+PWS,1977,1,310,1,4512,573,,regional;individual;local
+NSE,1977,185,254,519,2528,302,,individual
+YAK,1977,38,186,100,78,9,,local;individual
+KSK,1977,59,20,264,1,299,,regional
+BER,1977,0,14,47,0,0,,regional
+YUK,1977,96,0,39,0,792,,individual;local;regional
+NRS,1977,5,0,4,49,200,,regional;individual
+KTZ,1977,0,0,0,0,193,,regional;individual;local
+ALU,1977,0,0,0,0,0,,individual;regional;local
+BRB,1976,96,5617,27,1037,1489,,regional;individual
+CKI,1976,11,1722,212,1393,521,,individual;local
+CHG,1976,2,1164,35,395,81,,regional
+COP,1976,31,865,112,3,0,,regional;local;individual
+KOD,1976,1,641,24,11078,740,,local;individual;regional
+NOP,1976,5,641,26,1,74,,regional;individual
+SOP,1976,2,375,0,2367,533,,individual;local;regional
+SSE,1976,104,256,295,5162,509,,local;regional;individual
+NSE,1976,130,207,476,144,514,,individual;local;regional
+YAK,1976,6,131,52,29,7,,individual
+PWS,1976,1,113,6,3019,370,,regional;individual
+BER,1976,0,31,42,0,0,,individual;regional;local
+KSK,1976,50,16,112,40,233,,local
+YUK,1976,88,0,5,0,757,,regional;individual
+NRS,1976,2,0,7,88,96,,regional
+KTZ,1976,0,0,0,0,160,,individual
+ALU,1976,0,0,0,0,0,,individual;local;regional
+BRB,1975,30,4899,46,0,888,,regional;individual
+CKI,1975,5,713,234,1400,973,,local;individual
+CHG,1975,1,400,53,66,25,,regional;individual
+COP,1975,20,335,54,0,1,,local
+SOP,1975,0,244,0,61,131,,individual;regional
+NOP,1975,2,238,28,0,9,,local
+PWS,1975,3,190,6,4453,100,,regional;local;individual
+KOD,1975,0,136,24,2943,84,,individual
+SSE,1975,144,115,271,3333,374,,local
+YAK,1975,6,73,38,80,4,,local;individual
+NSE,1975,151,57,119,617,310,,regional;individual;local
+BER,1975,0,22,24,0,0,,individual;regional
+ALU,1975,0,19,0,1,2,,local;regional;individual
+KSK,1975,28,18,110,1,224,,local
+YUK,1975,64,0,3,0,985,,individual;local;regional
+NRS,1975,2,0,5,32,213,,individual;local
+KTZ,1975,0,0,0,0,564,,local;regional
+BRB,1974,46,1362,44,940,913,,regional;local
+CHG,1974,0,663,12,70,34,,local;regional
+COP,1974,19,607,47,10,1,,regional;local;individual
+CKI,1974,7,525,206,534,416,,individual
+KOD,1974,1,419,14,2645,249,,individual;regional;local
+NRS,1974,3,0,2,149,164,,individual;local;regional
+SSE,1974,152,346,640,4221,685,,local;individual;regional
+NSE,1974,187,259,558,664,984,,individual
+NOP,1974,5,256,24,11,36,,individual;regional
+SOP,1974,1,197,9,101,72,,regional;individual;local
+PWS,1974,2,130,1,449,89,,individual
+YAK,1974,8,82,79,4,4,,individual;regional
+KSK,1974,31,28,179,60,194,,regional
+BER,1974,0,4,29,0,0,,individual;regional;local
+YUK,1974,98,0,16,0,868,,local;regional;individual
+NRS,1974,3,0,2,149,164,,individual;local;regional
+KTZ,1974,0,0,0,0,627,,regional;local;individual
+ALU,1974,0,0,0,0,0,,local;regional;individual
+CHG,1973,1,870,22,25,9,,regional;individual
+BRB,1973,44,761,57,0,1063,,local;regional;individual
+CKI,1973,5,699,106,634,783,,individual;regional
+NSE,1973,226,455,443,1883,964,,individual;local
+SSE,1973,113,422,349,4559,792,,regional;individual
+COP,1973,20,333,132,9,10,,regional;local
+SOP,1973,0,330,7,58,293,,individual
+NOP,1973,5,172,27,1,156,,local;individual
+KOD,1973,1,167,4,512,318,,local;regional;individual
+YAK,1973,4,128,43,17,9,,regional;local;individual
+PWS,1973,2,125,2,2057,730,,local;regional;individual
+BER,1973,0,15,65,0,0,,individual;local
+KSK,1973,51,5,152,1,185,,individual
+YUK,1973,75,0,37,0,518,,regional;individual
+NRS,1973,2,0,9,48,124,,regional;individual;local
+KTZ,1973,0,0,0,0,379,,individual;local;regional
+ALU,1973,0,0,0,2,0,,regional;local
+BRB,1972,70,2825,15,127,418,,regional;individual;local
+CKI,1972,16,938,82,657,706,,individual
+COP,1972,22,727,103,2,1,,local;individual;regional
+SOP,1972,1,557,8,78,732,,regional
+SSE,1972,142,463,821,9153,1030,,local;regional;individual
+CHG,1972,0,378,20,72,78,,local;regional;individual
+NSE,1972,140,324,635,3237,1905,,local
+KOD,1972,1,222,17,2478,1163,,regional
+PWS,1972,1,198,3,55,45,,individual;local;regional
+NOP,1972,2,179,10,0,85,,local;individual;regional
+YAK,1972,6,132,56,3,8,,regional;local;individual
+BER,1972,0,52,20,0,0,,regional;local;individual
+KSK,1972,57,4,24,2,97,,regional;local
+YUK,1972,93,0,22,0,288,,local
+NRS,1972,3,0,0,45,101,,local;individual;regional
+KTZ,1972,0,0,0,0,170,,individual;regional
+ALU,1972,0,0,0,3,0,,local;regional;individual
+BRB,1971,123,9584,13,0,832,,individual;local;regional
+CHG,1971,2,1016,15,632,359,,local;regional
+SOP,1971,2,716,17,1425,1361,,individual
+CKI,1971,20,659,104,428,476,,individual
+COP,1971,16,617,209,2,5,,local
+KOD,1971,1,478,23,4334,1541,,regional;local
+NOP,1971,2,354,8,0,64,,individual;local;regional
+NSE,1971,197,257,442,3015,1237,,regional;local
+SSE,1971,125,237,428,6259,703,,individual;local
+YAK,1971,10,129,41,81,5,,individual;local;regional
+PWS,1971,4,88,32,7311,574,,individual;local
+BER,1971,0,37,88,0,0,,individual;regional;local
+KSK,1971,7,4,5,0,31,,individual
+YUK,1971,148,3,17,0,359,,local;regional
+NRS,1971,3,0,3,5,131,,local;individual;regional
+KTZ,1971,0,0,0,0,155,,regional;individual
+ALU,1971,0,0,0,45,0,,local;individual
+BRB,1970,140,20354,15,457,857,,individual;regional
+SOP,1970,2,1779,33,1732,991,,individual
+CHG,1970,1,1326,15,1287,462,,locals
+COP,1970,19,1115,162,1,1,,individual;regional
+KOD,1970,1,917,66,12037,920,,regional;local;individual
+CKI,1970,8,753,279,1386,999,,regional
+NOP,1970,5,573,26,35,71,,regional
+NSE,1970,198,371,437,5244,1786,,local;individual
+SSE,1970,112,185,281,5371,635,,local
+YAK,1970,10,112,39,4,7,,local
+PWS,1970,1,104,12,2810,231,,local
+BER,1970,0,24,79,0,0,,regional;individual;local
+KSK,1970,27,13,25,27,60,,local;individual;regional
+YUK,1970,117,1,50,50,348,,individual;local;regional
+NRS,1970,2,0,4,64,107,,local;individual
+KTZ,1970,0,0,0,0,159,,regional
+ALU,1970,0,0,0,642,3,,regional
+BRB,1969,125,6617,81,2,392,,regional
+SOP,1969,2,922,11,1204,394,,local;individual
+CKI,1969,12,815,101,236,331,,local
+COP,1969,14,697,77,1,0,,individual;regional;local
+KOD,1969,2,591,49,12497,535,,individual;local
+NSE,1969,213,445,415,3609,476,,local
+NOP,1969,5,321,48,0,28,,regional;local
+CHG,1969,3,310,18,1780,68,,regional;individual
+PWS,1969,3,285,8,4829,321,,regional;local
+SSE,1969,95,248,120,1199,69,,regional
+YAK,1969,5,118,60,64,15,,local;regional;individual
+BER,1969,0,38,4,0,0,,local
+KSK,1969,22,11,29,1,43,,regional;individual;local
+YUK,1969,134,0,97,97,201,,local;regional
+NRS,1969,2,0,7,87,82,,regional
+KTZ,1969,0,0,0,0,59,,local;regional
+ALU,1969,0,0,0,242,0,,regional
+BRB,1968,104,2793,93,1936,364,,regional;individual;local
+CKI,1968,5,1200,475,2864,1194,,local;individual
+CHG,1968,1,878,2,1291,224,,regional;individual
+KOD,1968,2,760,57,8768,750,,regional
+SOP,1968,1,700,31,1285,325,,regional
+COP,1968,10,573,231,4,0,,regional;local
+NSE,1968,218,441,762,9882,1367,,individual;regional
+SSE,1968,110,309,658,15201,1263,,local;regional;individual
+NOP,1968,4,237,65,0,74,,regional;individual
+PWS,1968,2,122,12,2452,343,,individual;regional;local
+YAK,1968,4,81,122,2,14,,local;individual;regional
+BER,1968,0,26,67,0,0,,regional
+KSK,1968,43,6,154,76,20,,individual
+ALU,1968,0,3,0,894,1,,regional
+YUK,1968,107,0,13,13,67,,local;individual;regional
+NRS,1968,1,0,7,71,45,,individual;regional
+KTZ,1968,0,0,0,0,30,,local;individual
+BRB,1967,117,4331,54,1,476,,local;regional
+CKI,1967,8,1409,180,408,382,,regional;local
+SSE,1967,108,580,169,642,290,,regional;individual
+COP,1967,10,508,161,1,0,,regional;local
+CHG,1967,1,468,9,109,76,,regional
+KOD,1967,2,309,10,188,227,,local;individual;regional
+NSE,1967,191,303,577,2437,1516,,local;individual;regional
+SOP,1967,2,297,3,78,239,,individual;regional
+NOP,1967,6,225,47,1,41,,local
+YAK,1967,2,88,120,33,4,,regional
+PWS,1967,4,46,41,2626,274,,individual;regional
+BER,1967,0,12,46,0,0,,local;individual
+KSK,1967,30,1,58,0,8,,regional;local
+YUK,1967,129,0,11,11,49,,local
+NRS,1967,2,0,2,29,42,,local
+KTZ,1967,0,0,0,0,29,,regional;individual;local
+ALU,1967,0,0,0,8,0,,regional;local;individual
+BRB,1966,77,9314,34,2493,343,,individual
+CKI,1966,10,1867,295,2586,661,,local;individual
+COP,1966,11,1006,116,1,0,,regional;individual
+KOD,1966,1,632,68,10756,763,,regional
+SOP,1966,1,606,6,302,485,,local;individual;regional
+SSE,1966,113,445,598,15650,706,,individual
+NSE,1966,193,423,561,4787,2564,,local;individual
+NOP,1966,9,245,37,16,79,,local
+CHG,1966,1,222,15,684,239,,regional;individual;local
+YAK,1966,2,185,67,3,260,,individual
+PWS,1966,1,100,24,2699,427,,local;regional;individual
+BER,1966,0,25,50,0,0,,individual
+KSK,1966,26,1,23,0,3,,regional;individual
+ALU,1966,0,1,0,63,1,,local;regional;individual
+YUK,1966,93,0,19,19,71,,regional;individual;local
+NRS,1966,2,0,6,13,80,,local;individual;regional
+KTZ,1966,0,0,0,0,32,Sockeye and pink and 9922 chum from Port Clarence area,regional
+BRB,1965,113,24255,8,1,361,,regional;local;individual
+CKI,1965,10,1426,154,140,345,,individual
+SOP,1965,2,880,34,2859,538,,local
+COP,1965,15,818,71,1,0,,local
+CHG,1965,2,631,9,1118,121,,local;regional
+SSE,1965,102,485,593,5710,289,,local
+NSE,1965,184,477,829,5165,1181,,regional;individual
+KOD,1965,1,346,27,2887,431,,individual;regional
+NOP,1965,6,199,34,2,70,,regional;individual;local
+YAK,1965,1,123,125,4,4,,regional;individual;local
+PWS,1965,1,116,45,2460,201,,local;individual
+BER,1965,0,11,52,0,0,,regional
+KSK,1965,24,2,12,0,4,,individual;regional;local
+YUK,1965,118,0,1,1,23,,individual
+NRS,1965,1,0,2,0,37,,regional;local
+KTZ,1965,0,0,0,0,40,,regional
+ALU,1965,0,0,0,0,0,No fishery,regional;individual;local
+BRB,1964,140,5596,37,1550,803,,regional;local
+CKI,1964,5,991,462,4287,1402,,individual;local;regional
+COP,1964,13,700,243,1,0,,local
+CHG,1964,1,558,2,1683,334,,local;individual;regional
+KOD,1964,1,498,36,12044,1134,,individual
+SSE,1964,118,466,722,11259,1193,,local
+SOP,1964,2,371,14,2722,751,,individual
+NSE,1964,238,365,696,7282,738,,local;regional;individual
+NOP,1964,4,235,37,7,139,,local
+YAK,1964,2,92,170,40,6,,individual
+PWS,1964,0,67,31,4207,539,,local;individual;regional
+BER,1964,0,13,79,0,0,,regional
+CKI,1963,18,958,204,234,526,,regional
+CHG,1963,2,409,10,1662,113,,regional
+KOD,1963,0,407,57,5480,305,,local;regional
+COP,1963,11,375,203,1,0,,regional;individual
+NSE,1963,174,326,743,13921,831,,regional;local;individual
+SSE,1963,84,299,386,5145,637,,local;individual;regional
+KSK,1964,21,13,29,1,1,,local
+YUK,1964,94,0,2,2,8,,individual
+NRS,1964,2,0,0,13,145,,local;individual;regional
+KTZ,1964,0,0,0,0,76,,regional;local
+ALU,1964,0,0,0,194,2,,local
+BRB,1963,62,2871,41,0,370,,regional;individual
+CKI,1963,18,958,204,234,526,,regional
+CHG,1963,2,409,10,1662,113,,regional
+KOD,1963,0,407,57,5480,305,,local;regional
+COP,1963,11,375,203,1,0,,regional;individual
+NSE,1963,174,326,743,13921,831,,regional;local;individual
+SSE,1963,84,299,386,5145,637,,local;individual;regional
+NOP,1963,4,225,41,7,56,,local;individual
+SOP,1963,2,204,17,2303,464,,individual;local
+PWS,1963,2,60,49,5295,943,,local;regional;individual
+YAK,1963,1,53,146,79,11,,regional;individual
+BER,1963,0,23,89,0,0,,local;regional
+ALU,1963,0,5,0,90,0,,regional
+KSK,1963,19,0,16,0,0,,regional;individual;local
+YUK,1963,117,0,6,6,0,,individual;regional
+NRS,1963,7,0,17,56,155,,local;individual
+KTZ,1963,0,0,0,0,54,,local;regional
+BRB,1962,84,4718,39,914,678,,individual;local
+CKI,1962,20,1173,358,4960,1150,,local
+KOD,1962,1,785,55,14114,795,,individual;local;regional
+COP,1962,15,678,175,2,1,,regional
+SOP,1962,3,408,16,1961,823,,individual
+CHG,1962,0,365,1,1518,364,,individual;regional;local
+SSE,1962,73,346,642,11007,971,,local;regional;individual
+NSE,1962,130,345,391,550,1007,,regional
+NOP,1962,6,256,40,28,37,,regional;individual
+YAK,1962,3,81,190,28,18,,regional;local;individual
+BER,1962,0,72,56,0,0,,regional;individual
+PWS,1962,2,54,32,6742,892,,regional
+KSK,1962,21,10,13,4,46,,individual;regional
+ALU,1962,0,5,0,2002,1,,local;individual;regional
+YUK,1962,95,0,23,23,54,,individual;regional;local
+NRS,1962,7,0,9,33,183,,local;individual;regional
+KTZ,1962,0,0,0,0,130,,regional;individual
+BRB,1961,89,11914,21,1,728,,regional;local;individual
+CKI,1961,20,1185,119,337,405,,local;individual;regional
+COP,1961,8,528,134,2,0,,individual;regional
+SOP,1961,1,457,10,1728,749,,individual
+NSE,1961,127,449,360,8698,1504,,individual;local;regional
+KOD,1961,1,408,29,3926,519,,local
+NOP,1961,6,388,25,3,153,,local;regional;individual
+CHG,1961,0,323,3,445,183,,local
+SSE,1961,100,212,399,3875,1044,,individual
+YAK,1961,3,83,130,65,12,,local;individual
+PWS,1961,0,69,11,2298,224,,regional
+BER,1961,1,60,51,0,0,,individual;local;regional
+ALU,1961,0,3,0,94,0,,individual
+KSK,1961,23,2,5,0,19,,individual;local
+YUK,1961,120,0,3,3,42,,regional;individual
+NRS,1961,5,0,14,34,48,,regional;individual;local
+KTZ,1961,0,0,0,0,0,No reported catch,local;regional
+BRB,1960,112,13705,16,302,1316,,individual;regional;local
+CKI,1960,28,948,314,2023,776,,local;individual
+CHG,1960,0,710,8,198,152,,regional;individual;local
+NOP,1960,10,693,44,35,607,,regional;local
+SOP,1960,2,385,3,1511,1071,,regional
+KOD,1960,1,363,54,6738,1300,,individual
+COP,1960,9,361,138,0,0,,individual;local;regional
+NSE,1960,185,329,306,1429,485,,local;regional
+SSE,1960,124,211,294,1542,521,,local;regional
+YAK,1960,1,48,121,14,12,,individual;local;regional
+PWS,1960,2,35,31,1842,382,,local
+BER,1960,0,33,70,0,0,,individual
+ALU,1960,0,8,0,445,0,,individual;regional;local
+KSK,1960,6,6,5,0,0,,individual;local
+YUK,1960,68,0,0,0,0,,individual
+KTZ,1960,0,0,0,0,0,No reported catch,regional;local;individual
+BRB,1959,84,4608,17,0,482,,regional;local
+NOP,1959,29,635,59,10,405,,local
+CKI,1959,33,634,113,137,411,,individual
+CHG,1959,1,428,5,67,187,,individual;regional;local
+SSE,1959,150,364,354,3569,523,,individual
+NSE,1959,207,336,530,4269,687,,regional;individual;local
+KOD,1959,2,330,15,1967,734,,individual;regional
+COP,1959,10,300,132,1,0,,regional;local;individual
+SOP,1959,1,217,8,885,576,,individual
+GSE,1959,6,,,,,,local;regional;individual
+YAK,1959,1,,,,,,individual
+BER,1959,0,,,,,,individual;local
+ALU,1959,0,,,,,,individual
+PWS,1959,1,,,,,,local;individual;regional
+KSK,1959,4,,,,,,local;regional;individual
+YUK,1959,78,,,,,,local
+KTZ,1959,0,,,,,No reported catch,local;individual
+BRB,1958,103,2986,136,1136,358,,local
+SSE,1958,138,541,500,6460,1169,,local
+CKI,1958,23,497,242,2598,596,,local
+NOP,1958,15,474,57,60,255,,local;regional
+NSE,1958,184,388,357,3315,1580,,individual
+CHG,1958,1,320,0,131,189,,individual;regional
+COP,1958,7,307,82,9,0,,individual;regional
+KOD,1958,2,288,21,4039,931,,local;individual
+SOP,1958,1,186,71,1385,841,,local;regional;individual
+YAK,1958,1,42,99,62,18,,local;individual
+GSE,1958,2,36,0,2,20,,regional
+BER,1958,0,24,21,0,0,,regional;local
+PWS,1958,12,14,23,6290,687,,regional;individual;local
+KSK,1958,0,0,0,0,0,No reported catch,individual
+YUK,1958,64,0,0,0,0,,individual
+KTZ,1958,0,0,0,0,0,No reported catch,local;regional;individual
+ALU,1958,0,0,0,613,0,,regional;individual;local
+BRB,1957,91,6276,69,0,259,,individual
+CKI,1957,43,671,127,307,1208,,individual
+COP,1957,8,542,59,2,1,,individual
+SSE,1957,121,501,488,4683,1428,,regional;local;individual
+NSE,1957,173,420,666,2158,1909,,regional
+SOP,1957,6,342,50,913,1281,,individual;local
+NOP,1957,1,328,18,3,275,,local;regional
+CHG,1957,1,305,5,305,216,,regional;local;individual
+KOD,1957,1,234,35,4716,1208,,regional;local;individual
+YAK,1957,4,111,63,16,32,,individual;regional
+PWS,1957,1,66,21,649,706,,individual
+GSE,1957,2,40,2,0,44,,local;regional
+BER,1957,0,29,27,0,0,,local;regional;individual
+ALU,1957,2,27,0,0,14,,local;regional
+KSK,1957,0,0,0,0,0,No reported catch,regional;local
+YUK,1957,64,0,0,0,0,,local
+KTZ,1957,0,0,0,0,0,No reported catch,local
+BRB,1956,66,8881,63,92,316,,local;regional;individual
+NOP,1956,4,1371,8,28,427,,individual;regional
+CKI,1956,65,1295,208,1803,870,,local;regional;individual
+CHG,1956,1,670,5,177,267,,local;individual;regional
+SOP,1956,5,641,62,2741,1619,,local;individual;regional
+COP,1956,12,541,109,1,0,,regional
+NSE,1956,126,470,420,3635,1142,,individual
+SSE,1956,107,337,366,10076,1535,,individual;regional
+KOD,1956,1,271,53,3319,705,,local
+PWS,1956,0,156,35,4525,507,,individual
+YAK,1956,6,108,130,17,24,,local;individual;regional
+BER,1956,0,41,53,0,0,,local
+GSE,1956,0,0,0,0,0,,individual
+KSK,1956,0,0,0,0,0,No reported catch,local;individual
+YUK,1956,62,0,0,0,11,,regional;individual
+KTZ,1956,0,0,0,0,0,No reported catch,local;individual;regional
+ALU,1956,0,0,0,5,0,,individual;regional;local
+BRB,1955,75,4549,21,0,212,,local;regional;individual
+CKI,1955,46,1064,180,1286,317,,local;individual
+COP,1955,20,637,158,0,0,,local
+NOP,1955,4,587,6,1,130,,individual;local
+SOP,1955,5,550,45,2529,688,,individual;regional;local
+CHG,1955,1,353,0,823,291,,individual
+NSE,1955,218,336,670,4060,1116,,individual;local
+SSE,1955,151,234,467,5248,388,,regional;local;individual
+KOD,1955,2,164,35,10794,482,,regional;individual;local
+YAK,1955,4,111,202,26,24,,regional;individual;local
+GSE,1955,0,66,0,0,1,,local;regional
+BER,1955,0,34,70,0,0,,individual;regional;local
+PWS,1955,0,13,1,27,5,Eshamy District only,regional
+ALU,1955,0,13,0,31,0,,regional;local
+KSK,1955,0,0,0,0,0,No reported catch,individual
+YUK,1955,56,0,0,0,0,,individual;local
+KTZ,1955,0,0,0,0,0,No reported catch,regional;local
+BRB,1954,56,4653,24,103,401,,regional;individual
+CKI,1954,65,1247,337,2460,776,,regional;local
+COP,1954,16,1100,158,0,0,,regional;individual;local
+NSE,1954,226,641,888,2406,3239,,regional;local;individual
+SOP,1954,4,636,49,2033,1413,,regional;individual;local
+SSE,1954,169,440,615,6462,988,,individual
+NOP,1954,3,355,35,18,405,,local;regional;individual
+KOD,1954,1,325,66,8439,1251,,individual;regional
+YAK,1954,2,127,267,40,16,,individual;local;regional
+CHG,1954,0,92,0,348,124,,regional;individual;local
+GSE,1954,0,12,0,2,1,,individual;local
+PWS,1954,0,6,0,12,6,Eshamy District only,regional
+ALU,1954,0,6,1,566,0,,individual;local
+BER,1954,0,0,92,0,0,,regional;individual
+KSK,1954,0,0,0,0,0,,individual;regional
+YUK,1954,65,0,0,0,14,,local;individual;regional
+KTZ,1954,0,0,0,0,0,No reported catch,local;regional
+BRB,1953,,,,0,387,,individual;local
+CKI,1953,,,,550,537,,local;individual
+SOP,1953,,,,2744,1465,,individual
+NSE,1953,,,,1175,2060,,regional;individual;local
+SSE,1953,,,,3798,1466,,local;individual
+COP,1953,,,,0,0,,individual;regional
+NOP,1953,,,,18,224,,individual;regional;local
+KOD,1953,,,,5175,548,,individual
+CHG,1953,,,,137,230,,regional;individual
+YAK,1953,,,,9,16,,individual
+PWS,1953,,,,1996,353,,local
+BER,1953,,,,0,0,,individual;local;regional
+ALU,1953,,,,69,1,,local;individual
+GSE,1953,,,,0,0,,regional
+KSK,1953,,,,0,0,No reported catch,regional
+YUK,1953,,,,0,6,,regional;local
+KTZ,1953,,,,0,0,No reported catch,regional
+BRB,1952,,,,14,249,,individual;local;regional
+CKI,1952,,,,2277,451,,local
+COP,1952,,,,6,1,,local;individual;regional
+SOP,1952,,,,909,1041,,local
+KOD,1952,,,,4577,1243,,local;regional
+SSE,1952,,,,6335,2498,,local;regional
+NOP,1952,,,,1,247,,individual
+NSE,1952,,,,3431,1668,,local;individual;regional
+CHG,1952,,,,82,152,,local;regional
+YAK,1952,,,,37,13,,individual;regional
+PWS,1952,,,,2162,550,,regional;local;individual
+ALU,1952,,,,32,26,,individual;regional;local
+GSE,1952,,,,0,0,,local;individual;regional
+BER,1952,,,,0,0,,individual;regional
+KSK,1952,,,,0,0,No reported catch,individual;regional;local
+YUK,1952,,,,11,0,,regional;local;individual
+KTZ,1952,,,,0,0,No reported catch,individual;regional
+BRB,1951,40,4327,42,0,157,,regional;individual;local
+CKI,1951,188,2481,285,417,292,,regional
+KOD,1951,2,468,49,2100,483,,local;individual
+COP,1951,17,452,154,0,0,,regional
+NSE,1951,262,390,1925,5792,2311,,individual
+NOP,1951,1,359,33,20,203,,individual
+SSE,1951,211,281,1257,16393,1807,,local;individual;regional
+SOP,1951,2,264,56,2845,683,,local
+CHG,1951,1,259,7,19,26,,local;regional
+PWS,1951,4,208,48,803,549,,individual;local
+YAK,1951,1,148,128,35,5,,individual;local
+ALU,1951,0,12,0,1,95,,individual
+BER,1951,0,4,46,0,0,,individual
+GSE,1951,0,0,0,0,0,,individual;regional
+KSK,1951,4,0,0,0,0,,individual;regional;local
+YUK,1951,56,0,0,0,0,,individual;regional;local
+KTZ,1951,0,0,0,0,0,No reported catch,regional;individual
+BRB,1950,45,7157,29,32,146,,regional;individual
+CKI,1950,163,2642,351,1132,464,,local;individual;regional
+SOP,1950,4,1745,71,1614,563,Catches from Unalaksa to Castle Cape,regional
+KOD,1950,2,921,41,5305,685,,local;individual;regional
+COP,1950,18,800,146,0,0,Includes Bering River; pink and chum estimated from canned,individual
+CHG,1950,1,353,15,617,92,,individual
+NSE,1950,192,306,621,1687,1438,Includes Yakutat catches,individual;regional
+SSE,1950,187,246,1031,7737,3340,,local;regional
+NOP,1950,1,128,38,0,218,,local;individual;regional
+PWS,1950,1,75,74,1851,456,,regional;local
+YAK,1950,0,0,0,0,0,Yakutat catch included in No SE AK catch,regional;local;individual
+GSE,1950,0,0,,0,0,,individual;local;regional
+BER,1950,0,0,,0,0,Bering River catches included in Copper River catches,local
+KSK,1950,0,0,0,0,0,No reported catch,local;individual
+YUK,1950,42,0,0,0,0,,individual;regional;local
+KTZ,1950,0,0,0,0,0,No reported catch,regional;local;individual
+ALU,1950,0,0,0,0,0,Catches included in S. peninsula catches or none,local
+BRB,1949,51,6449,26,0,269,,regional;local;individual
+CKI,1949,111,2153,280,433,239,,individual;regional
+KOD,1949,1,892,54,4928,700,,regional;local
+SOP,1949,4,637,19,1544,561,Catches from Unalaksa to Castle Cape,local;individual
+CHG,1949,1,543,6,92,129,,individual
+COP,1949,9,442,173,0,0,Includes Bering River catches,local;regional;individual
+SSE,1949,257,221,1364,33981,1953,,local;individual
+NSE,1949,222,191,872,9922,941,,regional;individual;local
+NOP,1949,1,137,26,0,41,,individual;local
+PWS,1949,1,93,116,6089,828,,individual;local;regional
+YAK,1949,1,78,45,18,0,,regional
+GSE,1949,0,0,0,0,0,,individual;local;regional
+BER,1949,0,0,0,0,0,Bering River catches included in Copper River catches,individual;local;regional
+KSK,1949,0,0,0,0,0,No reported catch,regional;local
+YUK,1949,36,0,0,0,0,,regional;individual
+KTZ,1949,0,0,0,0,0,No reported catch,regional;individual
+ALU,1949,0,0,0,0,0,Catches included in S. peninsula catches or none,local
+BRB,1948,49,14544,12,53,497,,regional
+CKI,1948,106,2035,408,1660,439,,individual;local
+KOD,1948,1,1260,32,5968,331,,individual
+NOP,1948,2,478,17,0,162,,local
+CHG,1948,1,370,1,1072,369,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,regional;local;individual
+SOP,1948,1,286,39,1684,1140,Catches from Unalaksa to Castle Cape,individual;local
+SSE,1948,266,244,1324,12770,3094,,regional;local
+PWS,1948,0,208,35,2461,458,,individual
+NSE,1948,205,199,716,1482,904,,local;individual
+COP,1948,6,173,267,0,0,Includes Bering River catches,local
+YAK,1948,9,82,106,100,7,,individual;regional;local
+GSE,1948,0,0,0,0,0,,regional;local
+BER,1948,0,0,0,0,0,Bering River catches included in Copper River catches,individual
+KSK,1948,0,0,0,0,0,No reported catch,regional
+YUK,1948,34,0,0,0,0,,local
+KTZ,1948,0,0,0,0,0,No reported catch,local;individual;regional
+ALU,1948,0,0,0,0,0,Catches included in S. peninsula catches or none,local;regional
+BRB,1947,42,18642,10,0,216,,individual
+CHG,1947,1,2085,5,472,72,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,local
+CKI,1947,107,1474,444,682,279,,regional;individual
+SOP,1947,3,1137,56,2320,1219,Catches from Unalaksa to Castle Cape,local;individual;regional
+KOD,1947,0,993,76,8857,295,Chinook and coho and chum estimated from canned production,individual;regional;local
+NSE,1947,170,367,474,3336,1235,,individual;regional;local
+NOP,1947,0,358,0,0,75,,local;regional
+COP,1947,15,354,279,0,0,Includes Bering River catches,local;regional
+SSE,1947,319,250,997,10681,2122,,individual;local
+PWS,1947,1,199,66,8077,706,,regional;individual;local
+YAK,1947,8,129,75,25,3,,local;regional
+GSE,1947,0,0,0,0,0,,local;individual
+BER,1947,0,0,0,0,0,Bering River catches included in Copper River catches,individual;regional;local
+KSK,1947,5,0,0,0,0,,regional;individual;local
+YUK,1947,54,0,0,0,0,,individual
+KTZ,1947,0,0,0,0,0,No reported catch,regional;individual;local
+ALU,1947,0,0,0,0,0,Catches included in S. peninsula catches or none,local;regional
+BRB,1946,27,8051,51,41,236,,individual
+CKI,1946,64,1474,581,1339,384,,individuals
+CHG,1946,2,869,7,907,265,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,local
+KOD,1946,0,839,56,9546,298,Chinook and coho and chum estimated from canned production,regional;local;individuall
+SOP,1946,6,752,151,1964,1220,Catches from Unalaksa to Castle Cape,regional;individual
+NOP,1946,2,698,0,0,36,,individual;local;regional
+COP,1946,24,550,284,0,0,Includes Bering River catches,regional;individual;local
+SSE,1946,298,402,1833,21318,2402,,local;individual
+NSE,1946,261,370,411,3442,1608,,local;individual;regional
+YAK,1946,9,116,123,62,1,,regional;local
+PWS,1946,2,111,159,8026,757,,regional;individual;local
+GSE,1946,0,0,0,0,0,,local;regional;individual
+BER,1946,0,0,0,0,0,Bering River catches included in Copper River catches,individual
+KSK,1946,2,0,1,0,0,,individual
+YUK,1946,23,0,0,0,0,,regional;individual
+KTZ,1946,0,0,0,0,0,No reported catch,regional;individual;local
+ALU,1946,0,0,0,0,0,Catches included in S. peninsula catches or none,local;individual;regional
+BRB,1945,27,73007300,16,0,635,,individual;regional
+KOD,1945,2,2041,60,9045,559,Chinook and coho and chum estimated from canned production,local;regional;individual
+CKI,1945,69,1557,330,1368,306,,regional
+SSE,1945,257,826,1989,16294,1780,,individual;local;regional
+COP,1945,22,824,324,0,0,Includes Bering River; coho pink and chum estimated from canned,local;individual
+SOP,1945,21,813,116,3640,949,Catches from Unalaksa to Castle Cape,regional;individual;local
+NSE,1945,169,623,425,5345,1534,,regional;individual
+NOP,1945,0,394,0,2,335,,local
+YAK,1945,11,233,173,15,4,,regional;local;individual
+CHG,1945,1,221,8,442,136,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,local
+PWS,1945,0,176,44,11632,1754,,local
+GSE,1945,0,0,0,0,0,,local;individual;regional
+BER,1945,0,0,0,0,0,Bering River catches included in Copper River catches,local;regional;individual
+KSK,1945,0,0,0,0,0,No reported catch,regional
+YUK,1945,20,0,0,0,0,,regional;individual
+KTZ,1945,0,0,0,0,0,No reported catch,local
+ALU,1945,0,0,0,0,0,Catches included in S. peninsula catches or none,individual
+BRB,1944,16,11546,25,55,315,,local;regional
+CKI,1944,85,1940,257,1815,259,,regional
+KOD,1944,1,1818,52,4955,507,Chinook and coho and chum estimated from canned production,individual
+SSE,1944,152,823,940,9949,3048,,local;regional
+COP,1944,10,770,294,0,0,Includes Bering River; coho pink and chum estimated from canned,regional;local
+NSE,1944,173,716,275,9332,3833,,regional;individual;local
+SOP,1944,10,539,239,2654,986,Catches from Unalaksa to Castle Cape,local
+NOP,1944,0,415,0,3,158,,regional
+CHG,1944,2,402,14,568,67,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,individual;regional
+YAK,1944,3,183,91,64,0,,individual;regional;local
+PWS,1944,1,141,65,8347,1209,,local;regional
+GSE,1944,0,0,0,0,0,,local;regional
+BER,1944,0,0,0,0,0,Bering River catches included in Copper River catches,regional;individual;local
+KSK,1944,0,0,0,0,0,No reported catch,local;regional;individual
+YUK,1944,14,0,0,0,0,,individual
+KTZ,1944,0,0,0,0,0,No reported catch,individual
+ALU,1944,0,0,0,0,0,Catches included in S. peninsula catches or none,individual;regional;local
+BRB,1943,41,17330,2,0,377,,individual;local;regional
+SOP,1943,22,2398,91,4360,924,Catches from Unalaksa to Castle Cape,regional;individual
+KOD,1943,1,1991,60,12480,454,Chinook and coho and chum estimated from canned production,individual;local
+CKI,1943,111,1468,280,1457,302,,individual;local;regional
+CHG,1943,1,1248,20,96,52,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,regional;local;individual
+COP,1943,20,700,186,1,0,Includes Bering River; coho pink and chum estimated from canned,local;regional;individual
+NOP,1943,0,567,0,1,50,,local;regional;individual
+SSE,1943,146,533,1273,13165,3136,,individual;local;regional
+NSE,1943,252,454,300,4845,3697,,regional;individual
+PWS,1943,0,165,73,10814,476,,regional;local
+YAK,1943,1,138,107,29,0,,individual
+GSE,1943,0,0,0,0,0,,regional;individual;local
+BER,1943,0,0,0,0,0,Bering River catches included in Copper River catches,individual;regional
+KSK,1943,0,0,0,0,0,No reported catch,individual
+YUK,1943,28,0,0,0,0,,regional;local
+KTZ,1943,0,0,0,0,0,No reported catch,regional;individual;local
+ALU,1943,0,0,0,0,0,Catches included in S. peninsula catches or none,regional;individual;local
+BRB,1942,19,6343,29,172,169,,individual
+CKI,1942,95,1540,645,966,401,,individual
+KOD,1942,1,1282,107,6093,565,Chinook and coho and chum estimated from canned production,individual;local;regional
+SSE,1942,378,954,1414,19610,3156,,regional
+SOP,1942,5,810,123,6763,1321,Catches from Unalaksa to Castle Cape,regional
+CHG,1942,2,659,12,486,151,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,individual;local;regional
+COP,1942,25,562,710,2,0,Includes Bering River; coho pink and chum estimated from canned,individual;local;regional
+NSE,1942,180,455,612,13459,2285,,local;regional;individual
+YAK,1942,0,158,185,58,0,,regional
+PWS,1942,1,97,64,7002,702,,regional;local
+GSE,1942,0,0,0,0,0,,regional;individual
+BER,1942,0,0,0,0,0,Bering River catches included in Copper River catches,individual;regional
+KSK,1942,0,0,0,0,0,No reported catch,regional;individual;local
+YUK,1942,22,0,0,0,0,,local;regional
+KTZ,1942,0,0,0,0,0,No reported catch,local
+ALU,1942,0,0,0,0,0,Catches included in S. peninsula catches or none,individual
+NOP,1942,0,0,0,0,0,No fishery,individual
+BRB,1941,31,7154,35,0,524,,regional
+KOD,1941,3,1730,200,7602,445,Chinook and coho and chum estimated from canned production,local;regional
+CKI,1941,105,1293,359,715,272,,regional;individual
+SOP,1941,13,1072,183,5347,1542,Catches from Unalaksa to Castle Cape,local;individual
+SSE,1941,93,1008,1563,37016,1592,,regional;individual
+CHG,1941,1,654,31,327,162,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,local
+NOP,1941,1,492,0,3,30,Estimated from canned production,local;individual;regional
+COP,1941,12,444,566,11,0,Includes Bering River; pink and chum estimated from canned,individual
+NSE,1941,515,424,611,22978,1362,,REGIONAL
+YAK,1941,5,243,341,67,5,,individual
+PWS,1941,0,75,48,3775,507,,local
+GSE,1941,0,0,0,0,0,,regional
+BER,1941,0,0,0,0,0,Bering River catches included in Copper River catches,individual;local
+KSK,1941,0,0,1,0,0,,regional;local;individual
+YUK,1941,30,0,0,0,0,,regional;individual
+KTZ,1941,0,0,0,0,0,No reported catch,regional
+ALU,1941,0,0,0,0,0,Catches included in S. peninsula catches or none,regional
+BRB,1940,15,4727,25,258,293,,individual
+CKI,1940,63,1649,478,2604,281,Estimated from canned production,local
+KOD,1940,1,1318,148,9998,673,Chinook and coho and chum estimated from canned production,regional;local;individual
+SOP,1940,9,1040,184,7183,2326,Catches from Unalaksa to Castle Cape,individual;regional;local
+SSE,1940,57,851,1107,18493,2192,,individual;regional;local
+NOP,1940,1,679,0,0,66,Estimated from canned production,regional;local
+NSE,1940,370,485,502,10493,2432,,individual;local;regional
+COP,1940,5,436,229,0,0,Includes Bering River catches,individual;local
+CHG,1940,0,250,0,87,25,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,individual;local;regional
+YAK,1940,2,171,230,108,1,,local
+PWS,1940,1,76,90,11543,532,,individual;local;regional
+GSE,1940,0,0,0,0,0,,local
+BER,1940,0,0,0,0,0,Bering River catches included in Copper River catches,individual;local;regional
+KSK,1940,0,0,1,0,0,,regional;local
+YUK,1940,18,0,0,0,0,,local;individual;regional
+KTZ,1940,0,0,0,0,0,No reported catch,regional
+ALU,1940,0,0,0,0,0,Catches included in S. peninsula catches or none,individual;regional
+BRB,1939,33,13332,0,0,935,,local;individual;regional
+CKI,1939,53,2335,163,319,232,Resurrection bay contribution estimated from canned production,individual
+SOP,1939,17,1882,99,6005,1441,Catches from Unalaksa to Castle Cape,local
+KOD,1939,2,1786,112,11741,642,Chinook and coho and chum estimated from canned production,regional
+CHG,1939,2,1482,9,273,79,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,local;regional
+SSE,1939,152,1098,714,17453,1843,,local;individual
+NSE,1939,493,1063,324,6228,1545,,regional;individual;local
+NOP,1939,4,746,0,0,82,Estimated from canned production,local;regional
+COP,1939,9,634,7,3,0,Includes Bering River; pink estimated from canned,regional
+YAK,1939,7,326,84,41,0,,regional;individual;local
+PWS,1939,2,121,36,2075,273,,local
+GSE,1939,0,0,0,0,0,,local
+BER,1939,0,0,0,0,0,Bering River catches included in Copper River catches,individual;regional
+KSK,1939,0,0,0,0,0,,individual;local;regional
+YUK,1939,10,0,0,0,0,,individual
+KTZ,1939,0,0,0,0,0,No reported catch,individual;regional
+ALU,1939,0,0,0,0,0,Catches included in S. peninsula catches or none,regional
+BRB,1938,46,24700,5,0,545,,regional
+CKI,1938,58,2425,214,849,191,Resurrection bay contribution estimated from canned production,regional;local;individual
+KOD,1938,1,1966,155,8398,640,Chinook and coho and chum estimated from canned production,regional;individual
+NSE,1938,265,1089,640,9953,1740,,individual;regional;local
+SSE,1938,485,1072,1359,20207,2815,,local;individual
+NOP,1938,6,1010,0,0,35,Estimated from canned production,local;regional
+SOP,1938,6,772,221,7169,1477,Catches from Unalaksa to Castle Cape,local;individual
+COP,1938,11,768,0,2,0,Includes Bering River; pink estimated from canned,local;individual;regional
+CHG,1938,1,411,24,223,71,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,regional;local
+YAK,1938,7,375,201,129,1,,local;individual;regional
+PWS,1938,1,116,53,7546,250,,individual
+GSE,1938,,,,,,,individual;local
+BER,1938,,,,,,,local
+KSK,1938,,,,,,,regional
+YUK,1938,,,,,,,local;regional
+KTZ,1938,,,,,,,local;individual
+ALU,1938,,,,,,,individual;regional
+BRB,1937,,,,,,,local;regional;individual
+KOD,1937,1,1881,165,16787,346,Chinook and coho and chum estimated from canned production,regional;individual
+CKI,1937,86,1581,216,488,149,Resurrection bay contribution estimated from canned production,local
+SOP,1937,9,1558,74,9302,1507,Catches from Unalaksa to Castle Cape,local;individual;regional
+SSE,1937,609,1056,867,20988,3042,,local;individual;regional
+COP,1937,14,1024,46,2,0,Includes Bering River; coho pink and chum estimated from canned,regional;local;individual
+NSE,1937,263,903,356,14051,2509,,individual;local
+NOP,1937,2,861,0,0,66,Estimated from canned production,individual;local;regional
+CHG,1937,1,629,19,1205,123,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,regional
+YAK,1937,7,228,178,127,4,,individual;local
+PWS,1937,2,108,60,3332,227,,regional
+BER,1937,0,29,0,0,0,,individual
+GSE,1937,0,0,0,0,0,,regional;individual;local
+KSK,1937,0,0,0,0,0,,individual
+YUK,1937,6,0,0,0,0,,local;regional;individual
+KTZ,1937,0,0,0,0,0,No reported catch,regional
+ALU,1937,0,0,0,0,0,Catches included in S. peninsula catches or none,individual
+BRB,1936,22,20587,24,524,259,,individual;local
+SOP,1936,14,3663,285,9471,2311,Catches from Unalaksa to Castle Cape,local
+KOD,1936,3,2657,184,5648,328,Chinook and coho and chum estimated from canned production,individual
+CKI,1936,81,2390,328,853,265,No Resurrection Bay fishery,local;individual;regional
+SSE,1936,399,1215,1094,37428,3726,,regional;individual;local
+CHG,1936,1,981,40,597,114,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,regional;individual;local
+NSE,1936,278,940,499,13150,3878,,regional
+COP,1936,11,863,0,0,0,Pink catch estimated from canned,regional;local
+NOP,1936,1,611,0,3,19,Estimated from canned production,individual;local;regional
+YAK,1936,4,248,207,169,1,,individual;regional;local
+PWS,1936,3,153,44,9581,219,,local;regional;individual
+BER,1936,0,50,0,0,0,,individual
+GSE,1936,0,0,0,0,0,,local
+KSK,1936,1,0,0,0,0,,local
+YUK,1936,21,0,0,0,0,,individual;local
+KTZ,1936,0,0,0,0,0,No reported catch,local;regional;individual
+ALU,1936,0,0,0,0,0,Catches included in S. peninsula catches or none,individual
+BRB,1935,4,3023,2,0,72,,individual;local
+KOD,1935,1,1614,77,10781,382,Chinook and coho and chum estimated from canned production,individual;local
+CKI,1935,75,1356,170,431,161,No Resurrection Bay fishery,local;regional;individual
+SOP,1935,14,978,117,5386,2003,Catches from Unalaksa to Castle Cape,regional;individual;local
+NSE,1935,597,751,416,7178,2165,,individual;regional;local
+SSE,1935,36,736,1198,22982,2917,,individual
+CHG,1935,1,619,18,373,191,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,local
+NOP,1935,1,479,0,0,34,Estimated from canned production,individual;local;regional
+YAK,1935,8,407,146,88,2,,individual;local
+PWS,1935,3,175,34,2618,471,,individual
+COP,1935,3,112,80,0,0,Includes Bering River; coho and pink estimated fro canned,loccal;regional
+GSE,1935,0,0,0,0,0,,individual
+BER,1935,0,0,0,0,0,Bering River catches included in Copper River catches,regional
+KSK,1935,6,0,8,0,0,,local
+YUK,1935,7,0,0,0,0,,local;individual;regional
+KTZ,1935,0,0,0,0,0,No reported catch,regional
+ALU,1935,0,0,0,0,0,Catches included in S. peninsula catches or none,individual;regional;local
+BRB,1934,46,20601,12,33,332,,local;regional
+KOD,1934,1,1829,90,7642,661,Chinook and coho and chum estimated from canned production,local
+CKI,1934,72,1815,251,930,91,Estimated from canned production,regional;local;individual
+SOP,1934,18,1372,247,6539,1940,Catches from Unalaksa to Castle Cape,individual
+CHG,1934,1,1108,27,537,134,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,regional;individual;local
+NOP,1934,2,1091,0,0,13,Estimated from canned production,individual;local;regional
+COP,1934,13,914,0,3,0,Coho and pink catch estimated from canned production,regional;individual
+SSE,1934,200,456,1076,35204,1068,,regional
+NSE,1934,121,431,643,15016,2734,,regional;local;individual
+YAK,1934,18,355,238,108,3,,local;regional
+PWS,1934,4,144,100,6789,261,,individual;local
+BER,1934,0,78,0,0,0,,regional;individual;local
+GSE,1934,0,0,0,0,0,,individual;local;regional
+KSK,1934,0,0,0,0,0,No reported catch,individual;local
+YUK,1934,25,0,0,0,0,,regional;local;individual
+KTZ,1934,0,0,0,0,0,No reported catch,individual;regional
+ALU,1934,0,0,0,0,0,Catches included in S. peninsula catches or none,local
+BRB,1933,49,23709,16,0,256,,individual;regional;local
+SOP,1933,13,1997,190,3109,1174,Estimated from canned production; includes Aleautian Island catches,regional;individual
+KOD,1933,1,1428,91,6574,537,Estimated from canned production,individual
+CKI,1933,59,1336,188,118,57,Estimated from canned production,individual;local;regional
+COP,1933,19,629,96,0,0,Coho and pink catch estimated from canned production,local;individual;regional
+CHG,1933,1,596,53,325,120,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,local;individual;regional
+NSE,1933,73,441,398,10420,2895,,local
+SSE,1933,341,412,692,15245,1650,,individual;local;regional
+NOP,1933,1,350,0,0,16,Estimated from canned production,regional;local;individual
+YAK,1933,13,157,133,118,3,,local
+PWS,1933,4,107,76,3030,286,,individual;regional;local
+BER,1933,0,20,0,0,0,,local;regional;individual
+GSE,1933,0,0,0,0,0,,individual;regional;local
+KSK,1933,0,0,0,0,0,No reported catch,local
+YUK,1933,9,0,0,0,0,,local;regional
+KTZ,1933,0,0,0,0,0,No reported catch,regional;local
+ALU,1933,0,0,0,0,0,Catches included in S. peninsula catches or none,regional
+BRB,1932,68,14940,5,172,909,,individual
+SOP,1932,17,2977,112,3605,817,Estimated from canned production; includes Aleautian Island catches,regional;individual;local
+CHG,1932,1,1578,25,812,50,Pink and chum catch estimated form canned production; from Castle Cp. To E. boundary,regional
+CKI,1932,71,1132,375,441,65,Estimated from canned production,regional;individual;local
+KOD,1932,2,1058,52,4720,237,Estimated from canned production,individual;regional;local
+NSE,1932,312,1026,906,7822,2870,Includes Yakutat catches,individual;regional
+NOP,1932,3,977,0,0,56,Estimated from canned production,individual;local
+COP,1932,29,830,0,0,0,Includes Bering River catches,regional;individual
+SSE,1932,315,626,484,14784,2724,,regional;individual
+PWS,1932,8,256,100,3466,351,,individual
+YAK,1932,0,0,0,0,0,Yakutat catch included in No SE AK catch,local;regional
+GSE,1932,0,0,0,0,0,,local
+BER,1932,0,0,0,0,0,Bering River catches included in Copper River catches,regional;local;individual
+KSK,1932,9,0,0,0,0,,individual;regional
+YUK,1932,5,0,0,0,0,,regional;local
+KTZ,1932,0,0,0,0,0,No reported catch,local;regional
+ALU,1932,0,0,0,0,0,Catches included in S. peninsula catches or none,individual;regional
+BRB,1931,47,12791,1,0,636,,local
+SOP,1931,11,1863,129,998,1211,Estimated from canned production; includes Aleautian Island catches,regional;individual
+KOD,1931,2,1183,170,6840,184,Estimated from canned production,local;regional
+SSE,1931,297,883,722,13567,1671,,local;individual;regional
+CKI,1931,51,806,328,472,63,Estimated from canned production,individual
+NOP,1931,2,761,0,0,55,Estimated from canned production,local
+COP,1931,35,760,92,0,0,Includes Bering River catches,individual
+CHG,1931,1,715,40,170,46,Pink and chum catch estimated form canned production,regional;individual
+NSE,1931,163,661,430,13676,1180,,regional;local
+YAK,1931,0,280,0,0,0,,individual;local
+PWS,1931,2,159,55,4860,560,,individual;regional;local
+GSE,1931,0,0,0,0,0,,regional;individual;local
+BER,1931,0,0,0,0,0,Bering River catches included in Copper River catches,local;regional
+KSK,1931,9,0,0,0,0,,regional
+YUK,1931,0,0,0,0,0,No reported catch,individual;regional;local
+KTZ,1931,0,0,0,0,0,No reported catch,regional;individual
+ALU,1931,0,0,0,0,0,Catches included in S. peninsula catches or none,local;individual;regional
+BRB,1930,105,4259,34,249,227,,local;regional;individual
+NSE,1930,307,1494,630,22183,1742,,regional;individual;local
+SOP,1930,11,935,161,6095,1278,Estimated from canned production; includes Aleautian Island catches,individual;regional
+CKI,1930,72,918,498,1023,100,Estimated from canned; excludes Resurrection Bay,local;individual;regional
+COP,1930,25,830,598,0,0,Includes Bering River catches; estimated from canned,individual;local
+SSE,1930,220,780,1285,21228,967,,local;individual;regional
+KOD,1930,5,466,229,1651,419,Estimated from canned production,individual
+YAK,1930,83,313,84,72,0,,regional;individual;local
+PWS,1930,2,207,108,6777,980,,local
+NOP,1930,4,168,0,0,94,Estimated from canned production,regional
+CHG,1930,0,21,19,68,50,Pink and chum catch estimated form canned production,individual;local
+KSK,1930,8,2,0,0,0,,individual
+GSE,1930,0,0,0,0,0,,individual;local
+BER,1930,0,0,0,0,0,Bering River catches included in Copper River catches,local;regional
+YUK,1930,0,0,0,0,0,No reported catch,individual;local
+KTZ,1930,0,0,0,0,0,No reported catch,local;regional
+ALU,1930,0,0,0,0,0,Catches included in S. peninsula catches or none,LOCAL
+BRB,1929,151,12189,59,0,622,,individual;local;regional
+NSE,1929,379,1278,519,8849,1595,Includes Yakutat catches,regional;individual;local
+CKI,1929,68,1050,185,377,135,Estimated from canned; excludes Resurrection Bay,local;individual
+CHG,1929,2,1049,37,73,185,Pink and chum catch estimated form canned production,individual
+COP,1929,47,968,184,0,0,Includes Bering River catches; estimated from canned,individual
+SOP,1929,11,936,85,1794,2429,Estimated from canned production; includes Aleautian Island catches,local;regional;individual
+NOP,1929,4,878,0,0,145,Estimated from canned production,regional;local
+KOD,1929,3,712,144,6108,1058,Estimated from canned production,individual;regional
+SSE,1929,76,624,850,13000,1032,,individual;regional
+PWS,1929,1,265,66,9614,1282,,regional
+YAK,1929,0,0,0,0,0,Yakutat catch included in No SE AK catch,regional;local;individual
+GSE,1929,0,0,0,0,,,individual;regional;local
+BER,1929,0,0,0,0,0,Bering River catches included in Copper River catches,regional;individual
+KSK,1929,0,0,,0,0,No reported catch,local;regional
+YUK,1929,0,0,,0,0,No reported catch,local;individual
+KTZ,1929,0,0,,0,0,No reported catch,local;regional
+ALU,1929,0,0,0,0,0,Catches included in S. peninsula catches or none,local;regional
+BRB,1928,66,19710,5,47,397,,local;individual;regional
+KOD,1928,3,1592,291,1535,726,Estimated from canned production,local;individual;regional
+CKI,1928,70,1173,523,568,101,Estimated from canned; excludes Resurrection Bay,local;individual
+SOP,1928,8,972,97,901,2416,Estimated from canned production; includes Aleautian Island catches,individual;local;regional
+NSE,1928,239,897,1252,17990,2041,Includes Yakutat catches,regional;local;individual
+NOP,1928,5,856,0,0,84,Estimated from canned production,individual;local;regional
+CHG,1928,0,786,66,46,123,Pink and chum catch estimated form canned production,regional;individual;local
+COP,1928,45,532,304,0,0,Includes Bering River catches; estimated from canned,local;regional
+SSE,1928,145,454,907,18062,2830,,regional;local
+PWS,1928,4,183,190,8034,468,,regional;local;individual
+YAK,1928,0,0,0,0,0,Yakutat catch included in No SE AK catch,regional;local;individual
+GSE,1928,0,0,0,0,0,,regional;individual;local
+BER,1928,0,0,0,0,0,Bering River catches included in Copper River catches,local
+KSK,1928,0,0,0,0,0,No reported catch,individual;regional;local
+YUK,1928,0,0,0,0,0,No reported catch,individual;regional;local
+KTZ,1928,0,0,0,0,0,No reported catch,regional
+ALU,1928,0,0,0,0,0,Catches included in S. peninsula catches or none,regional
+BRB,1927,84,11072,0,0,196,,individual;local;regional
+CKI,1927,87,1459,388,252,59,,individual
+KOD,1927,4,1155,152,5297,418,,individual;regional;local
+SOP,1927,10,715,125,1456,1300,,regional
+NSE,1927,295,625,599,5471,1572,,individual;regional;local
+SSE,1927,69,573,241,2581,620,,regional;local;individual
+CHG,1927,1,456,101,187,171,Pink and chum catch estimated form canned production,local;regional
+COP,1927,42,341,410,,0,,regional
+YAK,1927,10,242,292,100,1,,local
+NOP,1927,16,231,0,0,87,,local;regional;individual
+PWS,1927,3,118,259,6125,655,,regional;individual
+ALU,1927,0,17,0,335,0,,individual;local
+GSE,1927,254,4,152,10,26,,local;individual
+BER,1927,0,0,0,0,0,No fishery,individual;local;regional
+KSK,1927,0,0,0,0,0,No reported catch,individual
+YUK,1927,0,0,0,0,0,No reported catch,individual
+KTZ,1927,0,0,0,0,0,No reported catch,individual;local;regional
+BRB,1926,75,19414,13,288,326,,individual;local
+SOP,1926,9,3072,194,3720,1180,,individual
+KOD,1926,1,3015,174,4607,325,,individual;regional
+CKI,1926,76,2000,353,586,118,,regional
+NSE,1926,197,978,400,12386,3189,,regional;individual;local
+SSE,1926,63,832,446,19268,2578,,regional;individual
+NOP,1926,24,673,0,0,72,,individual;regional;local
+CHG,1926,1,511,32,677,265,Pink and chum catch estimated form canned production,local;individual
+COP,1926,21,211,178,0,0,,local;regional
+YAK,1926,19,207,144,246,4,,local;individual
+PWS,1926,2,157,79,11154,587,,individual;local;regional
+BER,1926,0,37,53,0,0,,local;individual
+GSE,1926,174,28,196,294,335,,individual;local;regional
+ALU,1926,0,1,0,522,8,,individual;local;regional
+KSK,1926,0,0,0,0,0,No reported catch,individual
+YUK,1926,0,0,0,0,0,No reported catch,local;individual;regional
+KTZ,1926,0,0,0,0,0,No reported catch,local;regional;individual
+BRB,1925,97,7910,17,0,232,,individual;local;regional
+KOD,1925,2,1693,93,2674,212,,regional;local;individual
+CKI,1925,51,1511,198,12,15,,local;regional
+NSE,1925,251,934,448,4660,3563,,local;individual
+SOP,1925,11,820,127,382,1117,,individual
+CHG,1925,1,713,30,43,102,,individual;regional;local
+SSE,1925,106,682,462,22660,4454,,regional;individual;local
+NOP,1925,11,400,0,0,54,,individual
+YAK,1925,20,201,148,104,2,,individual;local
+COP,1925,20,161,153,0,0,,individual;local
+PWS,1925,3,97,84,4085,781,,local
+BER,1925,0,53,57,0,0,,local;individual;regional
+GSE,1925,223,26,154,822,168,,individual;local
+ALU,1925,0,19,0,4,9,,local
+KSK,1925,2,6,0,0,0,,regional;individual;local
+YUK,1925,0,0,0,0,0,No reported catch,individual
+KTZ,1925,0,0,0,0,0,No reported catch,regional;individual
+BRB,1924,72,10302,40,103,285,,individual;regional
+KOD,1924,1,1408,121,5435,118,,local;regional
+SOP,1924,4,1352,127,3931,1331,,regional;local
+SSE,1924,49,1065,482,19896,4375,,local;individual;regional
+CKI,1924,27,1056,188,752,37,,regional
+NSE,1924,479,1014,475,9232,2735,,regional;individual
+CHG,1924,0,877,94,1015,111,,individual
+COP,1924,16,791,42,0,0,,local
+NOP,1924,10,702,0,0,48,,regional;individual;local
+YAK,1924,20,395,155,311,0,,local;individual;regional
+PWS,1924,1,158,69,8396,385,,individual;local
+BER,1924,0,87,80,0,0,,individual;local
+GSE,1924,288,32,102,590,156,,individual;local
+ALU,1924,0,25,0,674,0,,individual;regional
+KSK,1924,19,1,7,0,7,,individual;local
+YUK,1924,27,0,0,0,0,,local;regional;individual
+KTZ,1924,0,0,0,0,0,No reported catch,regional;local
+BRB,1923,67,18182,9,0,185,,local;individual;regional
+SOP,1923,4,1827,75,144,539,,individual;regional;local
+CKI,1923,30,1099,143,39,23,,local
+KOD,1923,2,1090,78,929,39,,individual
+SSE,1923,140,1007,585,28786,2437,,individual;regional;local
+NSE,1923,478,972,456,9059,1301,,regional;local;individual
+NOP,1923,9,732,0,0,26,,individual;regional;local
+CHG,1923,1,643,19,9,88,,regional;individual
+COP,1923,10,626,0,0,0,,regional
+YAK,1923,16,360,190,294,6,,individual
+BER,1923,0,192,25,0,0,,regional;local
+PWS,1923,1,170,27,2447,112,,regional;local
+GSE,1923,156,72,111,1740,168,,individual;local;regional
+KSK,1923,7,0,0,0,0,,local;individual
+YUK,1923,13,0,0,0,0,,regional;individual;local
+KTZ,1923,0,0,0,0,0,No reported catch,individual;regional
+ALU,1923,0,0,0,0,0,No reported catch,individual
+BRB,1922,74,23632,160,290,516,,local
+SOP,1922,7,3377,2,757,349,,individual
+CHG,1922,1,1249,15,360,213,,regional;local
+KOD,1922,1,1097,120,2766,224,,local
+CKI,1922,31,860,200,637,74,,individual;local;regional
+NSE,1922,124,810,442,5064,1362,,local
+SSE,1922,79,673,554,18494,2330,,individual
+NOP,1922,10,668,0,0,43,,individual;regional;local
+COP,1922,10,506,0,0,0,,individual
+YAK,1922,9,377,180,73,0,,local
+PWS,1922,0,141,9,2421,51,,regional;individual;local
+BER,1922,0,131,0,0,0,,regional;individual
+GSE,1922,133,40,83,371,37,,local;individual
+ALU,1922,0,14,0,0,,,individual;local;regional
+KSK,1922,9,6,,0,0,,regional
+YUK,1922,17,0,0,0,0,,regional;individual;local
+KTZ,1922,0,0,0,0,0,No reported catch,individual;regional;local
+BRB,1921,92,15680,85,1,355,,regional;individual;local
+KOD,1921,1,2858,46,68,25,,individual
+CHG,1921,0,1829,13,31,221,,local;regional;individual
+NOP,1921,12,1746,0,0,33,,regional
+CKI,1921,14,984,21,5,42,,local;individual;regional
+SOP,1921,1,831,1,47,85,,regional;individual
+NSE,1921,223,631,456,1775,1102,,individual
+COP,1921,11,570,0,0,0,,regional;individual;local
+YAK,1921,13,513,198,35,0,,individual;regional;local
+SSE,1921,54,329,159,4631,609,,individual;regional
+BER,1921,0,121,0,0,0,,individual
+PWS,1921,0,93,9,13,3,,regional;individual;local
+GSE,1921,156,26,99,1294,135,,regional
+KSK,1921,10,0,0,0,0,,individual;local
+YUK,1921,70,0,1,1,111,,individual
+KTZ,1921,0,0,0,0,0,No reported catch,individual
+ALU,1921,0,0,0,0,0,No reported catch,individual;regional
+BRB,1920,127,8898,153,2045,434,,local
+KOD,1920,2,1958,89,1977,55,,regional;individual
+CHG,1920,1,1773,22,298,152,,individual;local;regional
+NOP,1920,19,1372,0,0,37,,local
+CKI,1920,40,1315,302,446,98,,local;regional
+NSE,1920,149,1221,535,7113,3880,,individual;regional
+SOP,1920,8,1142,48,2110,934,,individual
+SSE,1920,81,941,272,9844,4344,,regional
+COP,1920,23,855,74,0,0,,local;individual;regional
+YAK,1920,24,486,211,44,0,,local;regional;individual
+BER,1920,0,163,64,0,0,,individual
+PWS,1920,6,130,89,5315,261,,individual;regional;local
+GSE,1920,97,96,130,1120,390,,regional;individual;local
+ALU,1920,0,10,3,0,0,,individual
+KSK,1920,35,0,0,0,0,,local;individual
+YUK,1920,58,0,0,0,156,,REGION
+KTZ,1920,0,0,0,0,0,No reported catch,local;individual;regional
+BRB,1919,202,7161,47,0,204,,individual;regional;local
+KOD,1919,2,1619,104,283,60,,local;regional;individual
+NSE,1919,246,1480,799,6999,4937,,regional
+COP,1919,13,1329,53,0,0,,local;individual
+SSE,1919,121,1240,690,16789,4120,,regional;individual;local
+CKI,1919,24,944,173,43,54,,regional
+CHG,1919,1,885,35,5,137,,regional;individual;local
+SOP,1919,10,619,56,80,921,,individual;regional
+YAK,1919,13,494,244,24,0,,local;individual;regional
+NOP,1919,20,389,0,12,143,,individual;local;regional
+PWS,1919,7,153,73,1008,559,,regional;individual
+BER,1919,0,140,77,0,0,,regional;individual
+GSE,1919,200,49,71,519,211,,regional;individual;local
+ALU,1919,0,4,1,4,0,,individual
+KSK,1919,5,0,0,0,0,,local;regional;individual
+YUK,1919,105,0,37,37,328,,regional;individual
+KTZ,1919,0,0,0,0,0,No reported catch,individual;regional;local
+BRB,1918,87,23091,109,619,746,,individual;local;regional
+KOD,1918,2,1894,78,2467,82,,local
+CKI,1918,35,1668,251,721,108,,local;individual
+CHG,1918,1,1543,21,396,344,,local;regional
+COP,1918,20,1492,74,5,1,,individual
+NSE,1918,173,1486,701,15781,6436,,individual
+NOP,1918,10,1209,0,1,252,,regional
+SOP,1918,9,1014,16,2151,1501,,individual
+SSE,1918,122,789,640,20021,2686,,individual
+YAK,1918,13,454,225,116,0,,local;regional
+PWS,1918,1,249,100,4303,1342,,local;individual;regional
+BER,1918,0,173,80,1,0,,regional;local;individual
+GSE,1918,103,93,64,3370,231,,individual
+ALU,1918,0,55,4,76,0,,local
+KSK,1918,3,0,0,0,0,,individual;regional
+YUK,1918,12,0,26,26,74,,individual;regional
+KTZ,1918,0,0,0,0,27,Estimated from canned production,local
+BRB,1917,91,24514,62,37,356,,regional;individual;local
+KOD,1917,1,3646,30,225,16,,local
+CKI,1917,65,1660,61,54,78,,regional;local;individual
+SOP,1917,6,1486,5,72,415,,local;individual;regional
+CHG,1917,1,1457,13,10,125,,regional
+NSE,1917,176,1454,626,22219,2774,,individual;regional;local
+COP,1917,14,920,126,9,0,,local
+NOP,1917,20,680,7,1,90,,local
+SSE,1917,115,657,633,16706,3786,,regional
+YAK,1917,17,493,189,93,0,,individual;local
+PWS,1917,0,222,45,2591,370,,regional
+BER,1917,0,163,78,0,0,,local;regional
+ALU,1917,0,70,4,1,23,,individual
+GSE,1917,19,18,22,1310,292,,individual
+KSK,1917,8,0,0,0,0,,local;regional;individual
+KTZ,1917,0,0,0,0,45,Estimated from canned production,local;regional
+BRB,1916,105,17522,293,684,1490,,individual
+KOD,1916,1,3373,50,3182,29,,regional
+NOP,1916,44,1975,0,3,191,,regional
+CKI,1916,63,1699,210,1683,128,,individual;local;regional
+NSE,1916,135,1274,830,9809,2059,,individual;local
+CHG,1916,1,1003,46,267,89,,local;individual
+COP,1916,14,770,118,32,0,,individual
+SOP,1916,7,731,34,576,509,,regional;local
+SSE,1916,39,596,501,8608,2443,,rgion
+YAK,1916,1,435,127,41,0,,regional;individual
+BER,1916,0,141,52,14,0,,regional;local
+GSE,1916,80,76,130,1482,240,,regional;individual;local
+ALU,1916,0,76,1,180,0,,regional;local
+PWS,1916,0,72,48,3270,46,,regional
+KSK,1916,1,0,0,0,0,,individual
+KTZ,1916,0,0,0,0,19,Estimated from canned production,individual;regional;local
+BRB,1915,148,14788,130,135,593,,individual;regional;local
+NOP,1915,14,1974,0,0,55,,regional;local
+CKI,1915,84,1861,122,19,28,,individual;local
+KOD,1915,1,1664,52,252,20,,local;regional
+NSE,1915,94,1538,299,9863,1102,,regional
+CHG,1915,2,1330,30,56,65,,individual;regional
+COP,1915,7,819,12,16,0,,individual
+SSE,1915,119,781,332,17992,2385,,individual;local
+YAK,1915,9,433,157,157,0,,regional
+SOP,1915,5,368,16,120,333,,local;individual;regional
+BER,1915,0,106,0,0,0,,regional;individual;local
+GSE,1915,60,73,82,2339,105,,regional;individual;local
+PWS,1915,0,52,7,449,2,,local;regional;individual
+KSK,1915,0,0,0,0,0,No reported catch,individual;regional;local
+KTZ,1915,0,0,0,0,5,Estimated from canned production,local;regional
+ALU,1915,0,0,0,0,0,No reported catch,regional
+BRB,1914,101,20195,99,565,567,,local
+NSE,1914,71,2128,566,3924,1595,,individual;local
+CKI,1914,48,1473,188,1256,40,,regional
+NOP,1914,8,1325,0,0,0,,individual;regional;local
+KOD,1914,1,1255,32,1726,13,,local
+CHG,1914,1,1057,34,80,32,,individual;regional
+SSE,1914,133,826,225,8433,3783,,local
+SOP,1914,1,629,10,311,221,,local;regional
+COP,1914,3,571,42,0,0,,local
+YAK,1914,12,544,116,6,0,,local
+PWS,1914,0,72,13,225,0,,local
+BER,1914,0,10,0,0,0,,local;individual;regional
+GSE,1914,124,3,7,205,67,,local;regional;individual
+KSK,1914,0,3,0,0,0,,regional;individual;local
+KTZ,1914,0,0,0,0,9,Estimated from canned production,local
+ALU,1914,0,0,0,0,0,No reported catch,regional;individual
+BRB,1913,74,20582,67,425,285,,local;individual
+KOD,1913,1,1663,28,590,4,,individual;local;regional
+CKI,1913,64,1369,81,11,11,,regional
+NSE,1913,65,1254,283,6622,1044,,regional
+NOP,1913,1,889,19,0,2,,individual
+CHG,1913,0,833,24,30,91,,individual;local
+YAK,1913,4,562,112,45,0,,local;individual;regional
+COP,1913,2,405,0,0,0,,local
+SSE,1913,191,392,157,18098,1384,,regional
+SOP,1913,2,300,0,0,7,,individual
+PWS,1913,1,75,0,426,0,,regional;local;individual
+BER,1913,0,39,0,0,0,,local;regional;individual
+GSE,1913,94,10,26,530,32,,regional
+KSK,1913,8,0,0,0,0,,individual;regional
+ALU,1913,0,0,0,0,0,No reported catch,regional;individual;local
+BRB,1912,98,19696,195,1681,355,,local;individual
+KOD,1912,1,2246,17,547,25,,local
+NSE,1912,68,1567,449,4726,2632,,local
+CHG,1912,2,1331,19,55,28,,individual
+CKI,1912,48,1195,71,1662,122,,local
+SSE,1912,152,808,517,17141,2685,,local;regional;individual
+YAK,1912,5,638,127,32,6,,local
+COP,1912,6,456,36,0,0,,regional;local
+SOP,1912,0,334,27,40,195,,regional;individual;local
+NOP,1912,1,253,11,0,2,,individual;local
+PWS,1912,0,48,16,402,0,,regional
+BER,1912,0,41,8,0,0,,regional;individual
+GSE,1912,181,6,6,113,19,,individual
+ALU,1912,0,0,0,0,0,No reported catch,individual;regional
+BRB,1911,113,8815,130,92,348,,local;individual;regional
+KOD,1911,1,2686,22,230,6,,local;individual;regional
+NSE,1911,62,1313,365,4970,1575,,regional
+CKI,1911,56,1249,88,71,1,,regional;local;individual
+CHG,1911,0,1078,8,23,15,,local
+SSE,1911,80,1032,355,15252,1141,,regional;local
+YAK,1911,0,508,158,181,14,,individual
+COP,1911,1,408,34,0,0,,individual;regional
+SOP,1911,0,241,12,25,83,,regional;individual
+NOP,1911,0,130,0,0,0,,local;regional
+GSE,1911,5,44,24,1006,55,,local
+PWS,1911,0,23,20,156,0,,regional
+ALU,1911,0,9,0,0,0,,local;regional
+BER,1911,0,0,0,0,0,,local;regional
+BRB,1910,102,11594,139,652,310,,individual;regional;local
+KOD,1910,2,1955,44,215,0,,individual;local
+NSE,1910,37,1541,238,2446,873,,regional;individual
+CHG,1910,0,1315,37,17,0,,regional;individual;local
+SSE,1910,66,978,235,6832,1121,,regional;local
+CKI,1910,49,840,80,218,1,,individual;regional;local
+YAK,1910,2,465,164,42,2,,individual;local
+COP,1910,1,222,18,0,0,,regional
+PWS,1910,0,68,14,197,0,,individual;regional;local
+SOP,1910,0,46,6,0,0,,individual;regional;local
+GSE,1910,70,2,9,106,0,,regional;local
+BER,1910,0,0,0,0,0,,local;individual;regional
+NOP,1910,0,0,0,0,0,No reported catch,local;individual;regional
+BRB,1909,130,15498,81,101,378,,individual;regional;local
+KOD,1909,4,1915,52,154,0,,individual
+CHG,1909,0,1731,0,0,0,,regional;individual;local
+NSE,1909,38,1585,137,2560,450,,individual;regional
+SSE,1909,34,723,128,6784,249,,individual;regional
+CKI,1909,60,583,88,4,0,,local;individual
+YAK,1909,0,483,68,18,0,,individual;local
+COP,1909,3,317,0,0,0,,individual;local
+PWS,1909,0,150,0,0,0,,individual;regional
+NOP,1909,2,143,0,0,1,,regional;individual
+SOP,1909,0,108,7,0,0,,individual;regional
+GSE,1909,42,0,0,135,0,,individual;regional;local
+BER,1909,0,0,0,0,0,,regional;individual
+BRB,1908,90,16234,103,399,460,,local
+KOD,1908,3,2488,74,286,0,,regional
+CHG,1908,0,1631,0,0,0,,individual
+NSE,1908,32,1365,202,5458,1187,,individual
+SSE,1908,43,731,186,7120,616,,individual
+CKI,1908,34,671,95,375,0,,individual;regional;local
+COP,1908,0,466,0,0,0,,local;individual;regional
+YAK,1908,7,431,46,54,0,,individual;regional
+NOP,1908,1,167,0,0,0,,local
+PWS,1908,0,117,0,18,0,,local;regional;individual
+SOP,1908,0,69,0,0,0,,individual
+GSE,1908,19,18,24,960,21,,individual;regional
+BER,1908,0,0,0,0,0,,individual
+BRB,1907,138,10193,129,344,509,,local
+KOD,1907,4,4232,38,0,0,,local;regional
+CHG,1907,0,1623,1,0,0,,regional;local
+NSE,1907,61,1056,221,3781,917,,individual;local
+SSE,1907,17,808,180,8055,437,,individual
+CKI,1907,63,461,177,6,0,,individual
+YAK,1907,0,331,101,54,0,,local;regional
+COP,1907,1,264,0,0,0,,individual;local
+NOP,1907,2,67,3,2,0,,local;regional
+PWS,1907,0,18,0,252,0,,individual;local;regional
+GSE,1907,11,5,0,84,0,,individual
+BER,1907,0,0,0,0,0,,individual
+BRB,1906,143,10823,207,1902,254,,individual;local
+KOD,1906,4,3980,24,0,0,,individual;regional;local
+NSE,1906,27,1330,388,2540,869,,individual;local;regional
+CHG,1906,0,1324,0,0,0,,local;regional;individual
+SSE,1906,3,981,169,3859,473,,regional
+YAK,1906,0,297,81,63,0,,individual;local
+COP,1906,2,265,0,0,0,,regional
+CKI,1906,22,226,93,64,0,,regional;individual
+NOP,1906,2,135,0,0,0,,local
+PWS,1906,0,61,0,0,0,,regional;individual
+BER,1906,0,54,0,0,0,,regional;individual;local
+GSE,1906,13,12,22,575,32,,individual;regional
+BRB,1905,117,14834,78,291,59,,individual
+KOD,1905,2,2142,87,0,0,,individual
+NSE,1905,46,1335,162,858,869,,individual;regional
+CHG,1905,0,1297,0,0,0,,local;individual;regional
+SSE,1905,9,1009,184,2060,343,,indivifual
+COP,1905,20,320,0,0,0,,individual;regional
+YAK,1905,0,267,50,45,0,,local;individual
+PWS,1905,0,100,0,0,0,,local;regional
+CKI,1905,18,96,0,0,0,,regional;individual;local
+GSE,1905,13,0,3,98,449,,local;individual
+BER,1905,0,0,0,0,0,,local
+BRB,1904,98,11903,129,398,37,,individual;local;regional
+KOD,1904,3,2875,103,5,0,,local
+NSE,1904,33,2072,136,1330,187,,regional;local;individual
+CHG,1904,0,1690,0,28,0,,regional
+SSE,1904,4,1143,242,2381,102,,local;regional;individual
+COP,1904,5,502,0,0,0,,regional;local
+CKI,1904,30,489,24,0,0,,local;individual
+YAK,1904,0,142,97,111,0,,regional
+BER,1904,0,123,0,0,0,,local
+PWS,1904,0,109,0,574,0,,individual;regional;local
+GSE,1904,0,59,43,1356,69,,regional;individual
+BRB,1903,87,16320,60,242,0,,individual;local
+KOD,1903,1,1826,120,10,0,,regional;individual
+NSE,1903,6,1278,249,951,0,,local;regional
+CHG,1903,0,1150,9,84,0,,local;individual;regional
+PWS,1903,5,814,0,399,0,Includes Copper River catches,local;individual
+CKI,1903,66,564,59,0,0,,regional;local;individual
+GSE,1903,36,553,280,3908,0,,regional
+SSE,1903,0,230,125,669,0,,local
+YAK,1903,0,0,0,0,0,,regional
+BER,1903,0,0,0,0,0,,regional;individual;local
+BRB,1902,109,12809,194,502,0,,individual;local
+KOD,1902,3,3868,35,0,0,,local;regional;individual
+CHG,1902,0,1782,0,0,0,,local;individual
+NSE,1902,5,1185,107,1233,0,,local;regional
+PWS,1902,3,800,0,375,0,Includes Copper River catches,individual
+CKI,1902,49,710,55,79,0,,individual;local;regional
+GSE,1902,2,583,82,5286,0,,regional;individual;local
+SSE,1902,4,256,34,1547,0,,local;regional
+YAK,1902,0,53,12,35,0,,individual
+BER,1902,0,0,0,0,0,,regional;individual;local
+BRB,1901,106,10221,4,231,0,,regional;local
+KOD,1901,4,4826,0,2,0,,regional
+CHG,1901,0,907,7,40,0,,individual;local
+PWS,1901,7,781,0,314,0,,individual
+NSE,1901,9,711,66,1120,0,,local;regional
+CKI,1901,34,482,9,6,0,,local;regional;individual
+GSE,1901,6,389,109,5356,0,,regional;individual;local
+SSE,1901,3,264,107,1049,0,,individual
+BER,1901,0,0,0,0,0,,individual
+BRB,1900,58,8547,0,8,0,,individual;local;regional
+KOD,1900,5,3450,32,0,0,,local;regional;individual
+CHG,1900,0,1047,2,52,1,,individual
+NSE,1900,11,1024,38,68,0,,regional;individual
+SSE,1900,0,763,84,2040,2,,individual
+PWS,1900,3,748,88,51,0,Includes Copper River catches; coho catch porbably mostly pinks,local;regional;individual
+CKI,1900,27,585,20,0,0,,local
+GSE,1900,6,262,176,2214,31,,local;individual
+BER,1900,0,106,0,0,0,,local
+BRB,1899,38,5113,100,17,0,,regional
+KOD,1899,1,1935,32,0,0,,local;individual
+CHG,1899,0,904,13,18,0,,individual;regional
+SSE,1899,12,797,139,1545,1,,individual;local
+CKI,1899,17,559,55,0,0,,individual
+PWS,1899,5,527,0,213,0,Includes Copper River catches,individual
+NSE,1899,13,485,4,0,0,,regional
+GSE,1899,12,269,138,1367,7,,local
+BER,1899,0,27,0,0,0,,regional
+BRB,1898,19,4928,56,60,0,,local
+KOD,1898,0,2033,19,0,0,,regional;individual;local
+CHG,1898,0,1165,1,0,1,Pink catch includes some chums,regional
+SSE,1898,9,708,132,673,0,,local
+CKI,1898,16,551,83,0,0,,individual;regional
+PWS,1898,2,417,0,375,0,Includes Copper River catches,regional;local;individual
+NSE,1898,0,337,37,0,0,,regional
+GSE,1898,8,192,123,889,28,,individual
+BER,1898,0,39,0,0,0,,individual;regional;local
+BRB,1897,20,3318,150,35,0,,regional;local;individual
+KOD,1897,0,2786,2,0,0,,regional;individual
+SSE,1897,5,791,161,2218,7,,local;individual
+CHG,1897,0,765,11,6,0,,regional;individual;local
+PWS,1897,2,371,26,302,0,Includes Copper River catches; coho catch porbably mostly pinks,local
+CKI,1897,14,355,28,0,0,,local;individual
+NSE,1897,15,338,12,0,0,,regional;local;individual
+BER,1897,0,39,0,0,0,,regional;local;individual
+GSE,1897,6,0,95,1155,0,,local;individual
+KOD,1896,0,3329,0,0,0,,regional;local;individual
+BRB,1896,17,2100,245,0,0,,regional;individual;local
+SSE,1896,4,989,192,996,0,,local;regional;individual
+CHG,1896,3,850,57,0,0,,regional;individual
+PWS,1896,1,715,32,308,0,Includes Copper River catches; coho catch porbably mostly pinks,regional;individual
+NSE,1896,11,469,9,0,0,,regional
+CKI,1896,18,310,28,38,0,,individual;local
+GSE,1896,4,114,40,634,3,,local;individual;regional
+BER,1896,0,24,0,0,0,,regional
+KOD,1895,0,2247,8,0,0,,regional
+BRB,1895,20,1472,28,0,0,,regional;individual;local
+CHG,1895,0,683,0,0,0,,individual
+PWS,1895,10,508,143,0,0,Includes Copper River catches; coho catch porbably mostly pinks,regional;local;individual
+SSE,1895,3,408,8,606,0,,regional;local;individual
+NSE,1895,9,337,11,0,0,,regional;local;individual
+CKI,1895,25,324,0,0,0,,individual;regional
+GSE,1895,0,148,590,0,0,,local;individual;regional
+KOD,1894,0,3830,0,0,0,,individual;regional;local
+BRB,1894,11,1235,47,0,0,,local;individual;regional
+PWS,1894,8,710,17,0,0,Includes Copper River catches; coho catch porbably mostly pinks,regional
+CHG,1894,0,600,0,0,0,,local;regional
+CKI,1894,16,407,19,0,0,,regional;individual;local
+NSE,1894,7,349,11,0,0,,local;individual
+SSE,1894,0,253,5,529,0,,regional
+GSE,1894,6,117,331,0,0,,regional;local;individual
+KOD,1893,0,3245,0,0,0,,regional
+BRB,1893,44,940,74,0,0,,regional;individual;local
+PWS,1893,9,793,72,0,0,Includes Copper River catches; coho catch porbably mostly pinks,individual
+CHG,1893,0,600,64,0,0,,local;individual;regional
+NSE,1893,0,428,0,0,0,,individual
+SSE,1893,0,189,1,187,0,,regional;local;individual
+CKI,1893,30,170,34,0,0,,regional
+GSE,1893,6,127,256,0,0,,individual
+KOD,1892,0,3126,0,0,0,,local;regional
+NSE,1892,0,578,5,0,0,,local;individual;regional
+CHG,1892,0,522,0,0,0,,individual
+SSE,1892,0,207,11,8,0,,local
+GSE,1892,0,0,0,0,0,,individual
+PWS,1892,0,0,0,0,0,No fishery,individual;regional;local
+BRB,1892,0,0,0,0,0,Estimated from canned production,local;individual;regional
+KOD,1891,0,3846,0,0,0,,regional
+CHG,1891,0,775,0,0,0,,regional;local;individual
+PWS,1891,6,711,0,0,0,Includes Copper River catches,individual
+NSE,1891,0,670,0,0,0,,individual
+SSE,1891,0,274,24,0,0,,local
+GSE,1891,0,0,0,0,0,,regional;individual
+BRB,1891,0,0,0,0,0,Estimated from canned production,individual;regional;local
+KOD,1890,0,3593,0,0,0,,regional;individual
+NSE,1890,0,636,2,0,0,,local
+CHG,1890,0,453,0,0,0,,regional;local
+PWS,1890,5,411,0,0,0,Includes Copper River catches,individual
+SSE,1890,0,251,42,0,0,,local;individual;regional
+GSE,1890,0,0,0,0,0,,local
+BRB,1890,0,0,0,0,0,Estimated from canned production,individual;local
+KOD,1889,0,3755,0,0,0,,individual;local;regional
+CHG,1889,0,560,0,0,0,,individual
+NSE,1889,0,557,0,0,0,,regional;individual
+PWS,1889,0,243,0,0,0,Includes Copper River catches,regional
+SSE,1889,0,182,11,92,0,,local;regional
+GSE,1889,0,0,0,0,0,,regional;individual
+BRB,1889,0,0,0,0,0,Estimated from canned production,local;regional;individual
+KOD,1888,0,2781,0,0,0,,regional
+SSE,1888,0,224,16,0,0,,local;regional;individual
+NSE,1888,0,212,0,0,,,regional
+CHG,1888,0,13,0,0,0,,individual
+GSE,1888,0,0,0,0,0,,individual;local;regional
+BRB,1888,0,0,0,0,0,Estimated from canned production,regional;local;individual
+KOD,1887,0,1005,0,0,0,,individual;local
+SSE,1887,0,155,0,0,0,,regional;individual;local
+NSE,1887,0,143,0,0,,,individual;regional
+GSE,1887,0,0,0,0,0,,individual;regional;local
+BRB,1887,0,0,,,0,Estimated from canned production,local
+KOD,1886,0,646,0,0,0,,regional;local
+NSE,1886,0,113,0,0,0,,individual
+SSE,1886,0,5,0,0,0,,individual;local;regional
+GSE,1886,0,0,0,0,0,,regional;individual
+BRB,1886,0,0,0,0,0,Estimated from canned production,regional;local;individual
+KOD,1885,0,469,0,0,0,,regional;local;individual
+NSE,1885,0,26,0,0,0,,individual;local;regional
+GSE,1885,0,0,0,0,0,,individual
+BRB,1885,0,0,0,0,0,Estimated from canned production,individual
+KOD,1884,0,282,0,0,0,,local;regional
+NSE,1884,0,143,0,0,0,,individual;regional;local
+GSE,1884,0,0,0,0,0,,individual;regional;local
+BRB,1884,0,0,0,0,0,Estimated from canned production,local;regional
+KOD,1883,0,189,0,0,0,,regional;local
+NSE,1883,0,108,0,0,0,,individual
+GSE,1883,0,0,0,0,0,,local
+KOD,1882,0,59,0,0,0,,regional;local;individual
+GSE,1882,0,0,0,0,0,"Estimated from canned production, probably sockeye",INDIVIDUAL
+GSE,1881,0,0,0,0,0,"Estimated from canned production, probably sockeye",local;individual
+GSE,1880,0,0,0,0,0,"Estimated from canned production, probably sockeye",local
+GSE,1879,0,0,0,0,0,"Estimated from canned production, probably sockeye",local;regional;individual
+GSE,1878,0,0,0,0,0,"Estimated from canned production, probably sockeye",individ
