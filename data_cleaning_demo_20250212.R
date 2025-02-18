@@ -12,7 +12,6 @@
 #Last updated Feb 12 2015
 #
 
-##################DA
 # Load necessary libraries ####
 library(tidyverse)  # Collection of R packages for data manipulation and visualization
 library(janitor) #Load janitor for data cleaning functions
@@ -21,7 +20,7 @@ library(naniar)  #Visualize missing data
 
 # Read in the original and additional datasets
 catch1 <- read_csv("data/catch_original.csv", na = c("", "NA"))  # Treats empty strings and "NA" as missing values (both exist in the data)
-catch2 <- read_csv("data/catch_additional.csv")
+catch2 <- read_csv("data/catch_additional.csv", na = c("", "NA"))
 
 # Preview the first few rows to understand the structure
 head(catch1)
@@ -38,11 +37,10 @@ catch <- bind_rows(catch1, catch2)
 colnames(catch)  
 
 #Clean column names ####
-# Clean column names to be consistent and easier to reference during coding
+# Clean column names to be consistent and easier to reference during coding (and machine friendly)
 catch <- catch %>%
   clean_names()
 colnames(catch)  
-
 
 
 #Remove duplicate records ####
@@ -88,8 +86,9 @@ catch_input <- catch %>%
                                   mean(sockeye_salmon, na.rm = TRUE), 
                                   sockeye_salmon))
 sum(is.na(catch_input$sockeye_salmon))  # Before we had 50 missing records, now is zero
-# library(VIM)  for more advanced inputation techniques
-# catch_knn <- kNN(catch, variable = "sockeye_salmon", k = 5)
+
+# library(VIM)  for more advanced inputation techniques like the K nearest neighbors
+#catch_knn <- kNN(catch, variable = "sockeye_salmon", k = 5)
 
 #End of missing data part of the demo
 #Before proceeding, let's do a couple of processes on the data 
@@ -111,10 +110,10 @@ catch <- catch %>%
 colnames(catch)  # Check available columns
 plot(catch$year, catch$sockeye_salmon)  # Visualize potential outliers on this column
 boxplot(catch$sockeye_salmon)  # Visualize potential outliers on this column
+
 ggplot(catch, aes(x = sockeye_salmon)) + 
   geom_histogram(bins = 30) + 
   ggtitle("Distribution of Sockeye Salmon (Before Cleaning)")
-
 
 #Method 1 to remove outliers: Interquartile Range (IQR) 
 # Calculate the Interquartile Range (IQR) for formal outlier detection
@@ -148,10 +147,12 @@ catch <- anti_join(catch, extreme_values)
 plot(catch$year, catch$sockeye_salmon)
 boxplot(catch$sockeye_salmon)  
 boxplot(catch$total_salmon)  
+
 # We are now able to make summaries on data, such as calculating the mean catch per region
 catch %>% 
   group_by(region) %>% 
   summarize(mean_catch = mean(total_salmon))
+
 #What about per source of fish data
 catch %>% 
   group_by(source) %>% 
@@ -239,14 +240,20 @@ head(region_defs)
 # Step 1: Split into two columns
 region_defs <- region_defs %>%
   separate(coordinates, into = c("lon", "lat"), sep = ",")
-
+head(region_defs)
 #Step 2, remove the letters "Lon, Lat"
 region_defs$lon <- gsub("Lon", "", region_defs$lon)
 region_defs$lat <- gsub("Lat", "", region_defs$lat)
+
+#Alternative, remove characters by position , in this case, keep from position 4 and 5 onward
+# region_defs$lon <- substr(region_defs$lon, 4, nchar(region_defs$lon))
+# region_defs$lat <- substr(region_defs$lat, 5, nchar(region_defs$lat))
+
 #Step 3, convert it to numeric data
 region_defs$lon <- as.numeric(region_defs$lon)
 region_defs$lat <- as.numeric(region_defs$lat)
 
+#Thi second data is clean! 
 
 #Combine both datasets by common values in column, note that region_defs column 
 #is named code, and catch_long is named region. Keep only values in catch_long
@@ -257,7 +264,6 @@ colnames(combined_data)
 #Remove data columns we don't need
 combined_data <- combined_data %>% 
   select(-c(region_code, notes))
-
 
 
 # Summarize mean catch by region
@@ -324,4 +330,4 @@ ggplot() +
        x = "Longitude", y = "Latitude") +
   theme_minimal()
 
-##End of file##
+  ##End of file##
