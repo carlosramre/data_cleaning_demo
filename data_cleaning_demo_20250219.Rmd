@@ -1,0 +1,488 @@
+---
+title: "Data Cleaning in R Workshop"
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
+
+# 
+This script demonstrates multiple techniques for cleaning a dataset in R, including handling missing data, removing outliers, splitting cells, correcting typos, and more. The example dataset represents salmon catch data obtained from the Alaska Department of Fish & Game, covering fish catch records from 1878 to 1997.
+
+The original dataset is available at: [KNB Ecoinformatics](https://knb.ecoinformatics.org/view/df35b.304.2)
+
+**Data credit:** Mike Byerly (2016). "Alaska Commercial Salmon Catches by Management Region (1886-1997)." Gulf of Alaska Data Portal. df35b.304.2.
+
+The original data has been modified by introducing multiple errors, artificial variables, and additional artificial data to demonstrate cleaning techniques.
+
+**Code created by:** Carlos Ramirez-Reyes (cramirezreyes@unr.edu)  University of Nevada, Reno.
+**Last updated:** Feb 19, 2025
+```{r}
+
+```
+# Load libraries and data 
+Let's start by bringing in all the required libraries 
+```{r, message = FALSE, warning=FALSE}
+# Load necessary libraries ####
+library(tidyverse)  # Collection of R packages for data manipulation and visualization
+library(janitor)    # Load janitor for data cleaning functions
+library(stringdist) # Finds similar text patterns
+library(naniar)     # Visualize missing data
+library(sf)          #Working with spatial data
+library(rnaturalearth)  #Connects to a server with multiple environmental data including political boundaries 
+library(rnaturalearthdata) #Connects to a server with multiple environmental data including political boundaries 
+```
+
+```{r, message = FALSE, warning=FALSE}
+# Read in the original and additional datasets
+catch1 <- read_csv("data/catch_original.csv", na = c("", "NA"))  # Treats empty strings and "NA" as missing values
+catch2 <- read_csv("data/catch_additional.csv", na = c("", "NA"))
+# Preview the first few rows to understand the structure
+head(catch1)
+head(catch2)
+
+```
+Noticed that the first two rows in Catch1 are conflicting?
+Skip the first two rows since they contain metadata or headers we don't need
+```{r, message = FALSE, warning=FALSE}
+catch1 <- read_csv("data/catch_original.csv", skip = 2, na = c("", "NA"))
+catch2 <- read_csv("data/catch_additional.csv", na = c("", "NA")) # No need to skip, it works well
+head(catch1)
+head(catch2)
+```
+# Merge datasets
+Combine both datasets by using bind_rows, it will match common column names
+```{r, message = FALSE, warning=FALSE}
+catch <- bind_rows(catch1, catch2)
+```
+
+We can check what the column names are from the merged dataset
+```{r, message = FALSE, warning=FALSE}
+colnames(catch)
+```
+
+# Clean column names 
+Notice the current column names. They have spaces and a mix of lower case and capitalized text. It is important to have proper variables/columns naming conventions as these are better when they are consistent and machine friendly. Also  a good naming will make it easier to call them in your code. We can use the janitor library's clean_names() function for that.
+```{r}
+catch <- catch %>%
+  clean_names()
+```
+Check the new, improved naming for the variables/column: all lower case and no spaces.
+
+```{r}
+colnames(catch)
+```
+# Duplicate records 
+Remove duplicate records in our dataset in two steps. 
+First Identify and remove duplicated records
+```{r}
+nrow(catch)  # Total number of records
+nrow(catch %>%
+       distinct())  # This is the number of unique records
+```
+It appears to be duplicated records since both numbers don't match. Let's use the distinct() function to eliminate those records.
+
+```{r}
+# Remove duplicates
+catch <- catch %>%
+  distinct()
+nrow(catch)
+```
+Now those duplicate records are gone. 
+
+# Missing data
+Missing data can be handled in different ways. Let's first count missing values in each column
+```{r}
+sapply(catch, function(x) sum(is.na(x)))  #across all columns list the # of NA
+#represent it as percentage
+catch %>%
+  summarise(across(everything(), ~mean(is.na(.)) * 100))
+```
+Notice that column "region" has complete records with 0 missing data, while "entered_by" has a lot. 
+We can visualized the missing data patterns using library naniar. This is great to see where the gaps in data exist, particularly in large datasets.
+```{r}
+# Visualize missing data patterns using library naniar
+vis_miss(catch)
+```
+
+### Remove missing data with any missing value: Least recommended!!!!! 
+
+```{r}
+catch_no_na <- catch %>%
+    drop_na()  # Removes rows with any missing values
+dim(catch_no_na)
+```
+This first approach removed rows that have at least one missing data in any column. After removing those, we ended up with no data (all rows had at least one column with missing data, this is why this is the least recommended option, unless you know your data very well and can do this approach withour loosing important data. 
+### Remove Rows with Missing Values in Specific Columns:
+```{r}
+catch_no_na <- catch %>%
+  drop_na(sockeye_salmon, region) #only removed if data is missing in either of those two columns
+dim(catch_no_na)
+```
+This was better, you have retained data you need to work with (only if you work with those two columns)
+
+### Recommended, use option  na.rm = TRUE in individual calculations
+For instance, if you want to know what is the mean sockeye_salmon catch across years you can do this
+```{r}
+mean(catch$sockeye_salmon)  
+```
+This should produce NA, since NAs exist in the column "sockeye_salmon"
+Let's verify it by counting how many NA's exist in the column 
+```{r}
+sum(is.na(catch$sockeye_salmon))  #count NAs. Yup, we have 50 instances
+```
+There are 50 NAs, preveinting you to calculate the mean. Let's ignore them in the calculation 
+
+```{r}
+mean(catch$sockeye_salmon, na.rm = TRUE)   #This should work, NAs were ignored
+```
+Now we were able to calculate the mean as NAs were ignored
+
+### Inputing data
+We could also impute data to fill the gaps. Multiple methods exist, a quick one is to replace NAs with the mean value of sockeye_salmon. We can achive this with an "if_else()" function. If the Cell has NA, then use the mean of the column, else retain the actual cell value. 
+```{r}
+catch_input <- catch %>%
+  mutate(sockeye_salmon = if_else(is.na(sockeye_salmon), 
+                                  mean(sockeye_salmon, na.rm = TRUE), 
+                                  sockeye_salmon))
+```
+This should have filled all NAs with the mean value of the column. let's verify
+
+```{r}
+sum(is.na(catch_input$sockeye_salmon))  # Before we had 50 missing records, now is zero
+```
+More complex imputation methods can be done too. You can use the library(VIM) for more inputation techniques like the K nearest neighbors
+```{r}
+##catch_knn <- kNN(catch, variable = "sockeye_salmon", k = 5)
+```
+
+# End of missing data part of the demo
+Before proceeding, let's do a couple of processes on the data
+
+# Remove unnecessary columns
+It is common that our data might have extra variables we don't need, so it is beneficial to subset the data, and often needed to save computer memory when working with large datasets. Again, let's check what variables we have.
+```{r}
+colnames(catch)
+```
+And now remove those we don't want.
+```{r}
+catch <- catch %>%
+  select(-c(notes, entered_by))
+colnames(catch)
+
+```
+# Adding columns 
+Sometimes we want to add columns. We can use mutate() function to do that. Firs, we can calculate the total salmon catch by adding all salmon columns.Then we will add a unique identifiers (our data lack that), this ID can be useful to make operations and track unique data entries.Note that we're removing NA's from calculations.
+
+```{r}
+catch <- catch %>%
+  mutate(
+    total_salmon = rowSums(across(chinook_salmon:chum_salmon), na.rm = TRUE),   #here we're adding cells from chinool all the way to chum columns
+    observation_id = row_number()
+  )
+```
+# Outliers
+We can visualy identify potential outliers in the sockeye_salmon column
+
+```{r, message = FALSE, warning=FALSE}
+plot(catch$year, catch$sockeye_salmon)  # Visualize potential outliers on this column
+boxplot(catch$sockeye_salmon)  # Visualize potential outliers on this column
+
+ggplot(catch, aes(x = sockeye_salmon)) + 
+  geom_histogram(bins = 30) + 
+  ggtitle("Distribution of Sockeye Salmon (Before Cleaning)")
+```
+
+It appears that this variable has outlier values. 
+We can explore 3 ways to deal with them
+### Method 1 to remove outliers: Interquartile Range (IQR) 
+```{r, message = FALSE, warning=FALSE}
+# Calculate the Interquartile Range (IQR) for formal outlier detection
+Q1 <- quantile(catch$sockeye_salmon, 0.25, na.rm = TRUE)
+Q3 <- quantile(catch$sockeye_salmon, 0.75, na.rm = TRUE)
+IQR_value <- IQR(catch$sockeye_salmon, na.rm = TRUE)
+# Define outlier thresholds
+lower_bound <- Q1 - 1.5 * IQR_value
+upper_bound <- Q3 + 1.5 * IQR_value
+# Filter out outliers
+outliers <- catch %>%
+  filter(sockeye_salmon < lower_bound | sockeye_salmon > upper_bound) %>% 
+  arrange(sockeye_salmon)
+# Print identified outliers
+head(outliers)
+```
+
+### Method 2 to remove outliers: Remove extreme values based on domain knowledge
+```{r, message = FALSE, warning=FALSE}
+min_realistic <- 0   #We know we can't have negative catch per year
+max_realistic <- 50000  # Hypothetical maximum. In other systems could be
+                        #max temp; max height of trees, max number of sits in room, etc
+
+#Find extreme values into an object
+extreme_values <- catch %>%
+  filter(sockeye_salmon < min_realistic | sockeye_salmon > max_realistic)
+#Now remove those extreme records from the dataset
+catch <- anti_join(catch, extreme_values)
+
+# Verify data after removing outliers
+plot(catch$year, catch$sockeye_salmon)
+boxplot(catch$sockeye_salmon)  
+
+```
+
+This looks much better with extreme values removed. We are now able to make summaries on data, such as calculating the mean catch per region
+```{r, message = FALSE, warning=FALSE}
+catch %>% 
+  group_by(region) %>% 
+  summarize(mean_catch = mean(total_salmon))
+```
+What about making a summary per source of fish data
+
+```{r, message = FALSE, warning=FALSE}
+catch %>% 
+  group_by(source) %>% 
+  summarize(mean_catch = mean(total_salmon))
+```
+
+```{r, message = FALSE, warning=FALSE}
+unique(catch$source)
+```
+There is a problem on this column, likely by people entering records manually without a standard. We will need to fix it
+
+# Fix text data
+
+### Split text within a column
+Let's clean the column in steps
+Step 1. Split the 'source' column into multiple rows using the ";" delimiter
+```{r, message = FALSE, warning=FALSE}
+catch_long <- catch %>% separate_longer_delim(source, delim = ";")
+unique(catch_long$source)
+```
+Step 2. Standardize source values to lowercase
+
+```{r, message = FALSE, warning=FALSE}
+catch_long$source <- tolower(catch_long$source)
+unique(catch_long$source)
+```
+Step 3. Manually correct typos
+
+```{r, message = FALSE, warning=FALSE}
+catch_long$source <- gsub("\\b(rgion|region)\\b", "regional", catch_long$source)
+catch_long$source <- gsub("\\b(locals|loccal)\\b", "local", catch_long$source)
+catch_long$source <- gsub("\\b(individuals|individuall|indivifual|individ)\\b", "individual", catch_long$source)
+unique(catch_long$source)
+#The \\b at both ends of the pattern ensures that only whole words are matched 
+#(word boundaries), so partial replacements won't happen.
+```
+### Automatically correct typos
+An alternative is to Automatically correct typos using string distance
+Step 1. Let's replicate catch_long object
+```{r, message = FALSE, warning=FALSE}
+
+catch_long <- catch %>% separate_longer_delim(source, delim = ";")
+unique(catch_long$source)
+```
+
+Step 2. Standardize source values to lowercase
+```{r, message = FALSE, warning=FALSE}
+catch_long$source <- tolower(catch_long$source)
+unique(catch_long$source)
+```
+Step 3. use the library(stringdist) 
+Provide reference names to use and then let the tool findh data that looks like our reference text
+```{r, message = FALSE, warning=FALSE}
+correct_names <- c("individual", "local", "regional")  #You should give these
+#Now run amatch to find closest records to the references
+catch_long$source_cor <- correct_names[amatch(catch_long$source, correct_names, maxDist = 3)]
+unique(catch_long$source_cor)
+```
+# Data is clean! 
+
+With this we can make summaries 
+```{r, message = FALSE, warning=FALSE}
+# Summarize mean catch by corrected source
+catch_long %>% 
+  group_by(source_cor) %>% 
+  summarise(mean_catch = mean(sockeye_salmon, na.rm = TRUE), instances = n())
+```
+
+Statistical tests too
+```{r, message = FALSE, warning=FALSE}
+# Conduct t-test to compare local and regional sources
+t.test(sockeye_salmon ~ source_cor, data = catch_long, subset = source_cor %in% c("local", "regional"))
+```
+
+# Transforming  Data
+Even is data is clean, sometimes you want to have data in wide format, like when you want enter additional data or combining with other datasets
+```{r, message = FALSE, warning=FALSE}
+catch_wide <- catch_long %>% 
+  select(-source) %>% #Necessary to remove the original source column o prevent conflict with new, clean source_cor
+  #group_by(observation_id) %>% 
+  mutate(source_log = TRUE) %>%  #Adding "TRUE" across all observations
+  pivot_wider(names_from = source_cor,  #Local, individual, regional will have each a column
+              values_from = source_log, #Use TRUE to populate these new columns if any of the three source categories is exist for the observation
+              values_fill = list(source_log = FALSE)) #If a source wasn't reported, then add a FALSE instead
+
+#view(catch_wide)  #now, all observations are collapsed back to one per row
+```
+But most often, you need it in long format, like what we did above. Say, you need to make an analysis on type of salmon. Like knowing what is the  mean salmon catch per salmon type
+```{r, message = FALSE, warning=FALSE}
+catch_long_salmon <- catch_wide %>% 
+  pivot_longer(cols = chinook_salmon:chum_salmon, 
+               names_to = "salmon_type",
+               values_to = "catch_tons")
+head(catch_long_salmon)
+```
+Note that salmons are now represented in one column instead of five
+You can now plot it
+```{r, message = FALSE, warning=FALSE}
+catch_long_salmon %>% 
+  ggplot(aes(x= salmon_type, y = catch_tons)) +
+  geom_boxplot()
+```
+
+You can also calculate the mean catch per salmon type
+```{r, message = FALSE, warning=FALSE}
+catch_long_salmon %>% 
+  group_by(salmon_type) %>% 
+  summarise(mean_catch = mean(catch_tons, na.rm = TRUE))
+```
+Or even Perform one-way ANOVA, which requires your data to be in long format
+```{r, message = FALSE, warning=FALSE}
+anova_result <- aov(catch_tons ~ salmon_type, data = catch_long_salmon)
+summary(anova_result)
+# Post-hoc test
+TukeyHSD(anova_result)
+```
+# Part two
+Data is ready, but I want to add now full names for each region that are listed in another dataset. I will import
+```{r, message = FALSE, warning=FALSE}
+region_defs <- read_csv("data/region_defs.csv")
+head(region_defs)
+#same issue, additional rows we don't need
+region_defs <- read_csv("data/region_defs.csv", skip = 2, na = c("", "NA"))
+```
+
+Now some of the same cleaning we did earlier for the previous datasets
+```{r, message = FALSE, warning=FALSE}
+#Clean the names to remove capitals and spaces if any
+region_defs <- region_defs %>%
+  clean_names()
+head(region_defs)
+```
+
+#Something interesting with column coordinates, it needs to be split. 
+# Split column into two
+```{r, message = FALSE, warning=FALSE}
+# Split coordinates and convert to numeric
+# Step 1: Split into two columns
+region_defs <- region_defs %>%
+  separate(coordinates, into = c("lon", "lat"), sep = ",")
+head(region_defs)
+#Step 2, remove the letters "Lon, Lat"
+region_defs$lon <- gsub("Lon", "", region_defs$lon)
+region_defs$lat <- gsub("Lat", "", region_defs$lat)
+
+#An alternative way is to remove characters by position , in this case, keep from position 4 and 5 onward
+# region_defs$lon <- substr(region_defs$lon, 4, nchar(region_defs$lon))
+# region_defs$lat <- substr(region_defs$lat, 5, nchar(region_defs$lat))
+
+#Step 3, convert columns to numeric data since originally were categorized as character (text) data
+region_defs$lon <- as.numeric(region_defs$lon)
+region_defs$lat <- as.numeric(region_defs$lat)
+```
+The second dataset is clean! 
+Now let's combine both datasets by common values, note that in region_defs column is named "code", and catch_long is named "region". We are only keeping values in catch_long
+
+```{r, message = FALSE, warning=FALSE}
+combined_data <- catch_long %>%
+  left_join(region_defs, by = c("region" = "code"))
+colnames(combined_data)
+#Remove data columns we don't need
+combined_data <- combined_data %>% 
+  select(-c(region_code, notes))
+head(combined_data)
+```
+With this combined data we can now make summaries with the full names
+
+```{r, message = FALSE, warning=FALSE}
+# Summarize mean catch by region
+combined_data %>% 
+  group_by(mgmt_area) %>% 
+  summarise(mean_catch = mean(sockeye_salmon, na.rm = TRUE),  # Adding na.rm = TRUE for safety
+            instances = n())
+```
+
+We have clean data!!!!!!!!!
+
+```{r, message = FALSE, warning=FALSE}
+#Let's save it to a file
+#write_csv(combined_data, "data/catch_clean_20250212.csv")
+```
+
+# Bonus, let's visualize data in space
+```{r, message = FALSE, warning=FALSE}
+#Use sf to convert combined data as spatial points using lon lat columns and then plot them in ggplot. 
+library(sf)
+library(ggplot2)
+library(rnaturalearth)
+library(rnaturalearthdata)
+```
+
+
+```{r, message = FALSE, warning=FALSE}
+# 1 Convert dataframe to Spatial Points using the coordinates columns and the sf library
+combined_sf <- combined_data %>%
+  st_as_sf(coords = c("lon", "lat"), crs = 4326, remove = FALSE)
+
+ggplot() +
+  geom_sf(data = combined_sf, color = "steelblue", alpha = 0.7) 
+#Good, we have spatial points, but we can add insights about it  
+
+# 2 Calculate Mean Catch per Region
+mean_catch_data <- combined_data %>%
+  group_by(region) %>%
+  summarise(mean_catch = mean(total_salmon, na.rm = TRUE),
+            lon = first(lon),  #Take first coordinate in the region to be used in column 
+            lat = first(lat))   #Same for lon (longitude column)
+
+#view(mean_catch_data)
+```
+
+Now that we have this summary table, let's use the coordinates columns to convert it to spatial object
+```{r, message = FALSE, warning=FALSE}
+mean_catch_data <-  st_as_sf(mean_catch_data, coords = c("lon", "lat"), crs = 4326, remove = FALSE) # make the object a spatial object
+  
+# 3 Plotting it in ggplot and using column mean_catch to represent the size of points in map
+ggplot() +
+  geom_sf(data = mean_catch_data, aes(size = mean_catch), color = "steelblue", alpha = 0.7) +
+  scale_size_continuous(name = "Mean Catch") +
+  labs(title = "Mean Salmon Catch by Region in tons", x = "Longitude", y = "Latitude")+
+  theme_minimal()
+```
+
+Even better, add some reference maps to be pulled from the library(rnaturalearth) and library(rnaturalearthdata)
+```{r, message = FALSE, warning=FALSE}
+# Get basemap data for USA and Canada
+north_america <- ne_countries(scale = "medium", returnclass = "sf") %>%
+  dplyr::filter(admin %in% c("United States of America", "Canada"))
+
+ggplot() +
+  geom_sf(data = north_america, fill = "gray", color = "black")  # Basemap for Alaska & Canada
+#Notice that map stretches to all world longitudes, but we can still use it, see below
+```
+
+Plot both the north_america map and the mean_catch_data in the same map. This is a nice map we obtained after all of this data cleaning and manipulation!
+```{r, message = FALSE, warning=FALSE}
+ggplot() +
+  geom_sf(data = north_america, fill = "gray80", color = "white") +  # Basemap for Alaska & Canada
+  geom_sf(data = mean_catch_data, aes(size = mean_catch), color = "steelblue", alpha = 0.7) +
+  scale_size_continuous(name = "Mean Catch") +
+  coord_sf(xlim = c(-170, -110), ylim = c(50, 72)) +  # Zoom into Alaska & Western Canada 
+  labs(title = "Mean Salmon Catch by Region",
+       x = "Longitude", y = "Latitude") +
+  theme_minimal()
+
+  ##End of file##
+
+```
